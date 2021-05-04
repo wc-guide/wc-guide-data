@@ -5,7 +5,7 @@ area["ISO3166-1"="CH"];
 )->.searchArea;
 // gather results
 (
-nwr["emergency"="defibrillator"]["opening_hours"="24/7"](area.searchArea);
+nwr["amenity"="toilets"](area.searchArea);
 );
 // print results
 out body;
