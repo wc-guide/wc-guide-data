@@ -1,6 +1,6 @@
 [out:json][timeout:25];
 (
-//ganze Schweiz 24h Defis
+//ganze Schweiz WC's
 area["ISO3166-1"="CH"];
 )->.searchArea;
 // gather results
