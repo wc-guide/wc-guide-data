@@ -1,15 +1,14 @@
-# Defi Archiv Schweiz
+# WC Guide Data
 
-![data screenshot](data.png)
+Sammlung von JSON Files für den WC-Guide
 
-Sammlung von JSON Files für die Defikarte.ch und deren Partner die in Zukunft Daten beziehen möchten.
-Die Daten können hier bezogen werden: [`data` Verzeichnis](https://github.com/chnuessli/defi_archive/tree/main/data)
+Die Daten können hier bezogen werden: [`data` Verzeichnis](https://github.com/chnuessli/wc-guide-data/tree/main/data)
 **Wichtig**
 Die Daten sind direkt aus OSM exportiert.
 
 ## Sinn und Zweck
 
-Sinn dieses Archivs ist es, Datenveränderungen täglich nachzuvollziehen. Täglich wird nun automatisiert ein GeoJSON generiert und somit Datenveränderungen dokumentiert.
+Sinn dieses Repo ist es, Datenveränderungen täglich nachzuvollziehen. Täglich wird nun automatisiert ein GeoJSON generiert und somit Datenveränderungen dokumentiert.
 Die JSON Datensammlung soll stetig wachsen und so ein sauberes Archiv generieren.
 
 ## Overpass Abfragen via Overpass API
@@ -21,119 +20,9 @@ Umgebaute Queries die mit der Overpass API korrespondieren können.
 <details><summary>Abfragen ausklappen</summary>
 <p>
 
-## Defibrillatoren
+## WC
 
-### Dispogebiet SRZ
-
-```json
-[out:json][timeout:25];
-(
-//Kanton Zürich
-area["ISO3166-2"="CH-ZH"];
-//Kanton Schwyz
-area["ISO3166-2"="CH-SZ"];
-//Kanton Schaffhausen
-area["ISO3166-2"="CH-SH"];
-//Kanton Zug
-area["ISO3166-2"="CH-ZG"];
-)->.searchArea;
-// gather results
-(
-nwr["emergency"="defibrillator"](area.searchArea);
-);
-// print results
-out body;
->;
-out skel qt;
-```
-
-### Kanton ZH
-
-```json
-[out:json][timeout:25];
-// fetch area “CH-ZH” to search in
-area["ISO3166-2"="CH-ZH"]->.searchArea;
-// gather results
-(
-  // query part for: “emergency=defibrillator”
-  node["emergency"="defibrillator"](area.searchArea);
-  way["emergency"="defibrillator"](area.searchArea);
-  relation["emergency"="defibrillator"](area.searchArea);
-);
-// print results
-out body;
->;
-out skel qt;
-```
-
-### Stadt ZH
-
-```json
-[out:json][timeout:25];
-area[name="Zürich"]["wikipedia"="de:Zürich"]->.zurich;
-// gather results
-(
-  node["emergency"="defibrillator"](area.zurich);
-  way["emergency"="defibrillator"](area.zurich);
-  relation["emergency"="defibrillator"](area.zurich);
-);
-// print results
-out body;
->;
-out skel qt;
-```
-
-### Kanton SG
-
-```json
-[out:json][timeout:25];
-(
-//Kanton St. Gallen
-area["ISO3166-2"="CH-SG"];
-//Kanton Glarus
-area["ISO3166-2"="CH-GL"];
-//Kanton Appenzell Innerhoden
-area["ISO3166-2"="CH-AI"];
-//Kanton Appenzell Ausserhoden
-area["ISO3166-2"="CH-AR"];
-)->.searchArea;
-// gather results
-(
-nwr["emergency"="defibrillator"](area.searchArea);
-);
-// print results
-out body;
->;
-out skel qt;
-```
-
-### KNZ St.Gallen
-
-```json
-[out:json][timeout:25];
-(
-//Kanton St. Gallen
-area["ISO3166-2"="CH-SG"];
-//Kanton Glarus
-area["ISO3166-2"="CH-GL"];
-//Kanton Appenzell Innerhoden
-area["ISO3166-2"="CH-AI"];
-//Kanton Appenzell Ausserhoden
-area["ISO3166-2"="CH-AR"];
-)->.searchArea;
-// gather results
-(
-nwr["emergency"="defibrillator"](area.searchArea);
-);
-// print results
-out body;
->;
-out skel qt;
-```
-
-### Defikarte.ch 24h Defis
-
-Dieses JSON wird für die Webseite Defikarte.ch benötigt.
+### Schweiz
 
 ```json
 [out:json][timeout:25];
@@ -143,27 +32,7 @@ area["ISO3166-1"="CH"];
 )->.searchArea;
 // gather results
 (
-nwr["emergency"="defibrillator"]["opening_hours"="24/7"](area.searchArea);
-);
-// print results
-out body;
->;
-out skel qt;
-```
-
-### Defikarte.ch NICHT 24h Defis
-
-Dieses JSON wird für die Webseite Defikarte.ch benötigt.
-
-```json
-[out:json][timeout:25];
-(
-//ganze Schweiz
-area["ISO3166-1"="CH"];
-)->.searchArea;
-// gather results
-(
-nwr["emergency"="defibrillator"]["opening_hours"!="24/7"](area.searchArea);
+nwr["amenity"="toilets"](area.searchArea);
 );
 // print results
 out body;
