@@ -1,0 +1,10 @@
+
+[out:json][timeout:25];
+// gather results
+(
+nwr["amenity"="toilets"](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;
