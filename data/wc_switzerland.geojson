@@ -12274,6 +12274,7 @@
     "access": "yes",
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
     "wheelchair": "yes",
     "id": "way/375754834"
   },
