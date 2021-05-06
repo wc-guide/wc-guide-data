@@ -1,5 +1,7 @@
 # WC Guide Data
 
+![WC-Guide Logo](img/wc-guide-logo.svg)
+
 Sammlung von JSON Files für den WC-Guide
 
 Die Daten können hier bezogen werden: [`data` Verzeichnis](https://github.com/chnuessli/wc-guide-data/tree/main/data)
