@@ -29166,8 +29166,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6447672,
-      46.8806253
+      8.6447354,
+      46.8806029
     ]
   }
 },
@@ -43216,8 +43216,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0049392,
-      47.1072666
+      9.0049539,
+      47.1072531
     ]
   }
 },
@@ -51311,7 +51311,7 @@
   "type": "Feature",
   "id": "node/3760603035",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "fee": "no",
     "toilets:disposal": "flush",
@@ -51320,8 +51320,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1134337,
-      46.9579906
+      7.1134526,
+      46.9579782
     ]
   }
 },
@@ -70041,21 +70041,6 @@
     "coordinates": [
       8.1564175,
       46.7840671
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/5964928000",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/5964928000"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1134391,
-      46.9579983
     ]
   }
 },
