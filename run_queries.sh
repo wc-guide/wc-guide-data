@@ -1,0 +1,27 @@
+#!/bin/bash
+
+set -e
+set -o pipefail
+
+function cleanup {
+  exit $?
+}
+trap "cleanup" EXIT
+
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Schweiz
+
+# WC's ganze Schweiz
+
+echo -ne "Query WC's ganze Schweiz...           "
+cat $DIR/queries/wc_switzerland.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/wc_switzerland.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's weltweit
+
+echo -ne "Query WC's weltweit...           "
+cat $DIR/queries/wc_worldwide.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/wc_worldwide.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
