@@ -84987,6 +84987,7 @@
     "toilets:position": "seated;urinal",
     "toilets:wheelchair": "yes",
     "unisex": "yes",
+    "wheelchair": "yes",
     "id": "node/5821232395"
   },
   "geometry": {
@@ -108789,6 +108790,25 @@
     "coordinates": [
       8.9349711,
       47.2256036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8709876773",
+  "properties": {
+    "amenity": "toilets",
+    "female": "yes",
+    "male": "yes",
+    "name": "WC",
+    "unisex": "no",
+    "id": "node/8709876773"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9802463,
+      47.7565747
     ]
   }
 }

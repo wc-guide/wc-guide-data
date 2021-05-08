@@ -68807,6 +68807,7 @@
     "toilets:position": "seated;urinal",
     "toilets:wheelchair": "yes",
     "unisex": "yes",
+    "wheelchair": "yes",
     "id": "node/5821232395"
   },
   "geometry": {
