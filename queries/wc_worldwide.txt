@@ -1,4 +1,4 @@
-[out:json][timeout:3000];
+[out:json][timeout:1000];
 // gather results
 (
 nwr["amenity"="toilets"];
