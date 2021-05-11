@@ -48740,7 +48740,7 @@
   "properties": {
     "access": "customers",
     "amenity": "toilets",
-    "fee": "No",
+    "fee": "no",
     "female": "yes",
     "male": "yes",
     "toilets:disposal": "flush",
@@ -56347,7 +56347,7 @@
   "type": "Feature",
   "id": "node/4366589656",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "fee": "no",
     "female": "yes",
@@ -58879,8 +58879,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6477332,
-      46.7853243
+      6.6477454,
+      46.7853384
     ]
   }
 },
@@ -71035,8 +71035,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3411992,
-      46.8177263
+      7.3412012,
+      46.8177047
     ]
   }
 },
@@ -71071,8 +71071,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3413044,
-      46.8170634
+      7.3413245,
+      46.8170386
     ]
   }
 },
@@ -88249,9 +88249,11 @@
   "type": "Feature",
   "id": "node/8607902967",
   "properties": {
+    "access": "yes",
     "amenity": "toilets",
     "toilets:disposal": "chemical",
     "unisex": "yes",
+    "wheelchair": "no",
     "id": "node/8607902967"
   },
   "geometry": {
@@ -89242,6 +89244,55 @@
     "coordinates": [
       7.8310738,
       46.6871416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8717691958",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8717691958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.369121,
+      46.6005113
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8719994421",
+  "properties": {
+    "amenity": "toilets",
+    "male": "yes",
+    "id": "node/8719994421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2110425,
+      47.2689244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8719994422",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "female": "yes",
+    "wheelchair": "limited",
+    "id": "node/8719994422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2110485,
+      47.2689187
     ]
   }
 }
