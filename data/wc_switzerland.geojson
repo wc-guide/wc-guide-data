@@ -30277,8 +30277,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7887167,
-      46.350729
+      8.7886958,
+      46.3507295
     ]
   }
 },
@@ -89766,6 +89766,28 @@
     "coordinates": [
       7.5741284,
       47.5749521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8726447218",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes",
+    "id": "node/8726447218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5662196,
+      47.319275
     ]
   }
 }
