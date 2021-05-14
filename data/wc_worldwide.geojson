@@ -5843,7 +5843,9 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
     "source": "Orthophotos 2011 du SITG (Système d'Information du Territoire Genevois)",
+    "wheelchair": "yes",
     "id": "way/163034306"
   },
   "geometry": {
@@ -27173,7 +27175,9 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
     "unisex": "yes",
+    "wheelchair": "yes",
     "id": "way/856830290"
   },
   "geometry": {
@@ -30314,6 +30318,49 @@
         [
           8.6629277,
           46.8756472
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/942630131",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "no",
+    "description": "Im Sommer für Badegäste Limmatinsel geöffnet, im Winterhalbjahr geschlossen.",
+    "operator": "Gemeinde Spreitenbach",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "wheelchair": "limited",
+    "id": "way/942630131"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.3721584,
+          47.4338055
+        ],
+        [
+          8.3722532,
+          47.4337903
+        ],
+        [
+          8.3722703,
+          47.4338532
+        ],
+        [
+          8.3721763,
+          47.4338678
+        ],
+        [
+          8.3721584,
+          47.4338055
         ]
       ]
     ]
@@ -40377,7 +40424,9 @@
   "id": "node/966027785",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "name": "Exterieur Parc Batie/ Cimtière",
+    "wheelchair": "no",
     "id": "node/966027785"
   },
   "geometry": {
@@ -88920,6 +88969,7 @@
     "female": "yes",
     "male": "yes",
     "toilets:position": "seated;urinal",
+    "wheelchair": "yes",
     "id": "node/6295786083"
   },
   "geometry": {
@@ -93249,6 +93299,7 @@
   "id": "node/6721689131",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "yes",
     "id": "node/6721689131"
   },
   "geometry": {
@@ -95709,6 +95760,7 @@
   "id": "node/7096329487",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "yes",
     "id": "node/7096329487"
   },
   "geometry": {
@@ -109521,6 +109573,27 @@
     "coordinates": [
       9.5662196,
       47.319275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728217652",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "drinking_water": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:position": "seated;urinal",
+    "id": "node/8728217652"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5586064,
+      46.5098364
     ]
   }
 }
