@@ -1,7 +1,11 @@
-[out:json][timeout:1000];
+[out:json][timeout:9000];
+(
+//ganze Schweiz WC's
+area["ISO3166-1"];
+)->.searchArea;
 // gather results
 (
-nwr["amenity"="toilets"];
+nwr["amenity"="toilets"](area.searchArea);
 );
 // print results
 out body;
