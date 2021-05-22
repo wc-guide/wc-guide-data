@@ -22416,6 +22416,42 @@
 },
 {
   "type": "Feature",
+  "id": "way/945582486",
+  "properties": {
+    "amenity": "toilets",
+    "building": "toilets",
+    "id": "way/945582486"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.741191,
+          46.6469083
+        ],
+        [
+          7.7411678,
+          46.6468902
+        ],
+        [
+          7.7411956,
+          46.6468734
+        ],
+        [
+          7.7412188,
+          46.6468916
+        ],
+        [
+          7.741191,
+          46.6469083
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/31054226",
   "properties": {
     "amenity": "toilets",
@@ -31429,8 +31465,10 @@
   "type": "Feature",
   "id": "node/988251788",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "amenity": "toilets",
+    "construction": "minor",
+    "construction_end_date": "Ende 2021",
     "description": "Raststätte Chölfeld",
     "toilets:disposal": "flush",
     "toilets:position": "seated",
@@ -49300,7 +49338,7 @@
   "type": "Feature",
   "id": "node/3518132179",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "fee": "no",
     "operator": "H. Jakober",
@@ -89965,7 +90003,14 @@
   "type": "Feature",
   "id": "node/8750700888",
   "properties": {
+    "access": "yes",
     "amenity": "toilets",
+    "changing_table": "no",
+    "portable": "no",
+    "toilets:disposal": "chemical",
+    "toilets:handwashing": "no",
+    "unisex": "yes",
+    "wheelchair": "no",
     "id": "node/8750700888"
   },
   "geometry": {
