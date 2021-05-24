@@ -20625,6 +20625,56 @@
 },
 {
   "type": "Feature",
+  "id": "way/472417053",
+  "properties": {
+    "addr:city": "Oberbipp",
+    "addr:country": "CH",
+    "addr:housenumber": "1",
+    "addr:postcode": "4538",
+    "addr:street": "Autobahn",
+    "amenity": "toilets",
+    "building": "yes",
+    "ele": "467",
+    "id": "way/472417053"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.6673379,
+          47.2501463
+        ],
+        [
+          7.6673657,
+          47.2500968
+        ],
+        [
+          7.6674713,
+          47.2501241
+        ],
+        [
+          7.6674608,
+          47.2501429
+        ],
+        [
+          7.667438,
+          47.250137
+        ],
+        [
+          7.6674208,
+          47.2501678
+        ],
+        [
+          7.6673379,
+          47.2501463
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/473794923",
   "properties": {
     "amenity": "toilets",
@@ -86622,8 +86672,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5249112,
-      45.8909393
+      8.524922,
+      45.8909227
     ]
   }
 },
@@ -109714,6 +109764,67 @@
     "coordinates": [
       8.156051,
       46.8004676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8757749717",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8757749717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.9092599,
+      46.4898148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8758110493",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8758110493"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3837227,
+      46.9639387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8758606928",
+  "properties": {
+    "amenity": "toilets",
+    "fee": "no",
+    "id": "node/8758606928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5270977,
+      45.8956863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8758607002",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8758607002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5271539,
+      45.894889
     ]
   }
 }
