@@ -24077,6 +24077,7 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "fee": "yes",
     "female": "yes",
     "male": "yes",
     "note:opening_hours": "closed at winter times",
@@ -56185,7 +56186,7 @@
     "type": "Point",
     "coordinates": [
       7.560713,
-      47.1993073
+      47.1993231
     ]
   }
 },
@@ -71586,8 +71587,14 @@
   "type": "Feature",
   "id": "node/4410327538",
   "properties": {
+    "access": "permissive",
     "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:fee": "no",
+    "changing_table:location": "wheelchair_toilet",
+    "fee": "no",
     "source": "GPS & survey",
+    "toilets:wheelchair": "designated",
     "id": "node/4410327538"
   },
   "geometry": {
@@ -82272,6 +82279,7 @@
   "type": "Feature",
   "id": "node/5566194721",
   "properties": {
+    "access": "permissive",
     "amenity": "toilets",
     "id": "node/5566194721"
   },
@@ -89122,13 +89130,14 @@
   "id": "node/6299114287",
   "properties": {
     "amenity": "toilets",
+    "check_date": "2021-05-24",
     "id": "node/6299114287"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5507492,
-      47.3004013
+      8.550724,
+      47.3004132
     ]
   }
 },
@@ -109825,6 +109834,24 @@
     "coordinates": [
       8.5271539,
       45.894889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8760859826",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "id": "node/8760859826"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3529638,
+      46.8267252
     ]
   }
 }
