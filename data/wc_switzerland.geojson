@@ -3923,9 +3923,7 @@
   "id": "way/171830192",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "61",
     "amenity": "toilets",
-    "building": "civic",
     "toilets:wheelchair": "yes",
     "wheelchair": "yes",
     "id": "way/171830192"
@@ -6997,6 +6995,57 @@
         [
           6.2083653,
           46.3486867
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/231126493",
+  "properties": {
+    "addr:city": "Allschwil",
+    "addr:housenumber": "117",
+    "addr:postcode": "4123",
+    "addr:street": "Binningerstrasse",
+    "amenity": "toilets",
+    "building": "yes",
+    "name": "Merkur Garage",
+    "shop": "car_repair",
+    "wheelchair": "yes",
+    "id": "way/231126493"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.5496827,
+          47.5479682
+        ],
+        [
+          7.5495304,
+          47.5477112
+        ],
+        [
+          7.5496897,
+          47.5476682
+        ],
+        [
+          7.5498201,
+          47.5478881
+        ],
+        [
+          7.5497448,
+          47.5479085
+        ],
+        [
+          7.5497667,
+          47.5479455
+        ],
+        [
+          7.5496827,
+          47.5479682
         ]
       ]
     ]
@@ -12763,6 +12812,46 @@
         [
           8.4820917,
           47.3979627
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/384559142",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "way/384559142"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6239919,
+          46.5076643
+        ],
+        [
+          6.6240326,
+          46.5076392
+        ],
+        [
+          6.6241666,
+          46.5077422
+        ],
+        [
+          6.624126,
+          46.5077673
+        ],
+        [
+          6.6239919,
+          46.5076643
         ]
       ]
     ]
@@ -27268,6 +27357,7 @@
     "amenity": "toilets",
     "description": "Kleine unscheinbare Holztür unter dem Hauseingang Nr. 33",
     "fee": "no",
+    "wheelchair": "no",
     "id": "node/451967739"
   },
   "geometry": {
@@ -35950,8 +36040,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.631788,
-      46.738224
+      7.631757,
+      46.738264
     ]
   }
 },
@@ -38020,23 +38110,6 @@
     "coordinates": [
       8.3918699,
       46.9337872
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1860015938",
-  "properties": {
-    "amenity": "toilets",
-    "female": "yes",
-    "male": "yes",
-    "id": "node/1860015938"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.624132,
-      46.507689
     ]
   }
 },
@@ -90125,6 +90198,37 @@
     "coordinates": [
       7.3529638,
       46.8267252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8764059266",
+  "properties": {
+    "amenity": "toilets",
+    "name": "WC Friedhofsparkplatz",
+    "id": "node/8764059266"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7585929,
+      47.1295931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8766081294",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8766081294"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6747467,
+      47.0896328
     ]
   }
 }
