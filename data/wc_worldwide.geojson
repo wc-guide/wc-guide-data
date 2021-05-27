@@ -40567,24 +40567,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/968105352",
-  "properties": {
-    "amenity": "toilets",
-    "fixme": "FIXME Positionen stimmen nicht. Hab nur taggen wollen, DASS dieser Service hier angeboten wird",
-    "seamark:small_craft_facility:category": "toilets",
-    "seamark:type": "small_craft_facility",
-    "id": "node/968105352"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.740945,
-      47.5293101
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/968533000",
   "properties": {
     "amenity": "toilets",
@@ -69084,6 +69066,8 @@
   "id": "node/4239460751",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "no",
     "id": "node/4239460751"
   },
   "geometry": {
@@ -109956,6 +109940,42 @@
     "coordinates": [
       8.6747467,
       47.0896328
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8768460505",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "id": "node/8768460505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7411036,
+      47.5294263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8768460506",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "female": "yes",
+    "toilets:disposal": "flush",
+    "id": "node/8768460506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7411562,
+      47.5294192
     ]
   }
 }

@@ -55035,6 +55035,8 @@
   "id": "node/4239460751",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "no",
     "id": "node/4239460751"
   },
   "geometry": {
