@@ -90233,6 +90233,21 @@
       47.0896328
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8773064282",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8773064282"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3428331,
+      47.0474418
+    ]
+  }
 }
 ]
 }

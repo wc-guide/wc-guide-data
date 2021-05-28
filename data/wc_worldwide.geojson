@@ -82303,6 +82303,7 @@
   "id": "node/5553203493",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "yes",
     "id": "node/5553203493"
   },
   "geometry": {
@@ -109976,6 +109977,21 @@
     "coordinates": [
       9.7411562,
       47.5294192
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8773064282",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8773064282"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3428331,
+      47.0474418
     ]
   }
 }
