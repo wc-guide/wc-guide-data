@@ -37134,7 +37134,7 @@
     "opening_hours": "24/7",
     "operator": "ZüriWC",
     "unisex": "yes",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/599156555"
   },
   "geometry": {
@@ -82041,6 +82041,7 @@
     "fee": "no",
     "female": "yes",
     "male": "yes",
+    "wheelchair": "yes",
     "id": "node/5509439775"
   },
   "geometry": {
@@ -109992,6 +109993,69 @@
     "coordinates": [
       8.3428331,
       47.0474418
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8776023577",
+  "properties": {
+    "amenity": "toilets",
+    "female": "yes",
+    "male": "yes",
+    "id": "node/8776023577"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.527628,
+      47.5178114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8776654551",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8776654551"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5392281,
+      47.3238366
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8777591701",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8777591701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1568633,
+      47.0935812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8777591702",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8777591702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1566895,
+      47.0937596
     ]
   }
 }
