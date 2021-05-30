@@ -61843,7 +61843,7 @@
   "type": "Feature",
   "id": "node/3414229277",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "id": "node/3414229277"
   },
@@ -104741,6 +104741,7 @@
     "access": "yes",
     "amenity": "toilets",
     "changing_table": "no",
+    "fee": "no",
     "unisex": "yes",
     "wheelchair": "yes",
     "id": "node/8438511850"
@@ -110019,6 +110020,8 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/8776654551"
   },
   "geometry": {
@@ -110056,6 +110059,22 @@
     "coordinates": [
       7.1566895,
       47.0937596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8778891124",
+  "properties": {
+    "amenity": "toilets",
+    "name": "Toi Toi WC",
+    "id": "node/8778891124"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2202414,
+      47.2512838
     ]
   }
 }
