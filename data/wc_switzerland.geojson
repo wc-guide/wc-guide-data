@@ -84511,18 +84511,22 @@
   "type": "Feature",
   "id": "node/8292490206",
   "properties": {
+    "access": "customers",
     "amenity": "toilets",
+    "changing_table": "yes",
     "description": "Restaurant und neuer Campingplatz im Frutigressort",
-    "operator": "Restaurant Bemato",
-    "unisex": "yes",
+    "female": "yes",
+    "male": "yes",
+    "operator": "Restaurant BEMATO",
+    "toilets:disposal": "flush",
     "wheelchair": "yes",
     "id": "node/8292490206"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6546603,
-      46.5934856
+      7.6546008,
+      46.5935159
     ]
   }
 },
@@ -90327,6 +90331,37 @@
     "coordinates": [
       8.2202414,
       47.2512838
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8780787704",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8780787704"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3934885,
+      47.4355611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8780817620",
+  "properties": {
+    "amenity": "toilets",
+    "opening_hours": "Mo-We, Fr 08:00-19:00; Th 08:00-21:00; Sa 08:00-17:00",
+    "id": "node/8780817620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3918709,
+      47.4355818
     ]
   }
 }
