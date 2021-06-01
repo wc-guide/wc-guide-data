@@ -123,6 +123,7 @@
   "id": "way/30406926",
   "properties": {
     "amenity": "toilets",
+    "building": "yes",
     "fee": "no",
     "operator": "Stadt Brugg",
     "id": "way/30406926"
@@ -132,24 +133,24 @@
     "coordinates": [
       [
         [
-          8.2013305,
-          47.4830929
+          8.2013481,
+          47.4830882
         ],
         [
-          8.2012788,
-          47.4830411
+          8.2012932,
+          47.4830468
         ],
         [
-          8.2013465,
-          47.4830101
+          8.2013631,
+          47.4830045
         ],
         [
-          8.2013981,
-          47.4830619
+          8.201418,
+          47.4830459
         ],
         [
-          8.2013305,
-          47.4830929
+          8.2013481,
+          47.4830882
         ]
       ]
     ]
@@ -2028,24 +2029,28 @@
     "coordinates": [
       [
         [
-          8.4633516,
-          47.179765
+          8.4632194,
+          47.1797094
         ],
         [
-          8.4633927,
-          47.1797109
+          8.4632633,
+          47.1796591
         ],
         [
-          8.4635125,
-          47.179753
+          8.4633823,
+          47.1797063
         ],
         [
-          8.4634714,
-          47.1798071
+          8.4633366,
+          47.1797659
         ],
         [
-          8.4633516,
-          47.179765
+          8.463272,
+          47.1797437
+        ],
+        [
+          8.4632194,
+          47.1797094
         ]
       ]
     ]
@@ -2630,7 +2635,8 @@
     "building": "toilets",
     "building:levels": "1",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Rigiplatz",
     "opening_hours": "24/7",
@@ -3177,42 +3183,6 @@
         [
           6.5110737,
           46.5162716
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/134419158",
-  "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "id": "way/134419158"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          7.6224192,
-          47.5472681
-        ],
-        [
-          7.6224188,
-          47.5472315
-        ],
-        [
-          7.6224449,
-          47.5472314
-        ],
-        [
-          7.6224453,
-          47.5472679
-        ],
-        [
-          7.6224192,
-          47.5472681
         ]
       ]
     ]
@@ -3801,7 +3771,9 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
     "source": "Orthophotos 2011 du SITG (Système d'Information du Territoire Genevois)",
+    "wheelchair": "yes",
     "id": "way/163034306"
   },
   "geometry": {
@@ -3951,9 +3923,7 @@
   "id": "way/171830192",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "61",
     "amenity": "toilets",
-    "building": "civic",
     "toilets:wheelchair": "yes",
     "wheelchair": "yes",
     "id": "way/171830192"
@@ -4041,7 +4011,8 @@
     "building:levels": "1",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Morgental",
     "opening_hours": "24/7",
@@ -7024,6 +6995,57 @@
         [
           6.2083653,
           46.3486867
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/231126493",
+  "properties": {
+    "addr:city": "Allschwil",
+    "addr:housenumber": "117",
+    "addr:postcode": "4123",
+    "addr:street": "Binningerstrasse",
+    "amenity": "toilets",
+    "building": "yes",
+    "name": "Merkur Garage",
+    "shop": "car_repair",
+    "wheelchair": "yes",
+    "id": "way/231126493"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.5496827,
+          47.5479682
+        ],
+        [
+          7.5495304,
+          47.5477112
+        ],
+        [
+          7.5496897,
+          47.5476682
+        ],
+        [
+          7.5498201,
+          47.5478881
+        ],
+        [
+          7.5497448,
+          47.5479085
+        ],
+        [
+          7.5497667,
+          47.5479455
+        ],
+        [
+          7.5496827,
+          47.5479682
         ]
       ]
     ]
@@ -10495,24 +10517,24 @@
     "coordinates": [
       [
         [
-          7.655861,
-          47.5947761
+          7.6558578,
+          47.5947804
         ],
         [
-          7.6559033,
-          47.5947677
+          7.6559001,
+          47.594772
         ],
         [
-          7.6559134,
-          47.594791
+          7.6559102,
+          47.5947953
         ],
         [
-          7.655871,
-          47.5947993
+          7.6558678,
+          47.5948036
         ],
         [
-          7.655861,
-          47.5947761
+          7.6558578,
+          47.5947804
         ]
       ]
     ]
@@ -10654,7 +10676,8 @@
     "building": "toilets",
     "building:levels": "1",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Schaffhauserplatz",
     "opening_hours": "24/7",
@@ -10769,42 +10792,6 @@
         [
           6.3175426,
           46.6478083
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "way/322670670",
-  "properties": {
-    "amenity": "toilets",
-    "building": "yes",
-    "id": "way/322670670"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          9.0629829,
-          47.1143891
-        ],
-        [
-          9.0628526,
-          47.1143969
-        ],
-        [
-          9.0628412,
-          47.1143171
-        ],
-        [
-          9.0629715,
-          47.1143082
-        ],
-        [
-          9.0629829,
-          47.1143891
         ]
       ]
     ]
@@ -11095,14 +11082,6 @@
         [
           7.5901346,
           47.5347602
-        ],
-        [
-          7.5901155,
-          47.5347653
-        ],
-        [
-          7.5901539,
-          47.534832
         ],
         [
           7.5901732,
@@ -12833,6 +12812,46 @@
         [
           8.4820917,
           47.3979627
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/384559142",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "way/384559142"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          6.6239919,
+          46.5076643
+        ],
+        [
+          6.6240326,
+          46.5076392
+        ],
+        [
+          6.6241666,
+          46.5077422
+        ],
+        [
+          6.624126,
+          46.5077673
+        ],
+        [
+          6.6239919,
+          46.5076643
         ]
       ]
     ]
@@ -14770,6 +14789,56 @@
 },
 {
   "type": "Feature",
+  "id": "way/472417053",
+  "properties": {
+    "addr:city": "Oberbipp",
+    "addr:country": "CH",
+    "addr:housenumber": "1",
+    "addr:postcode": "4538",
+    "addr:street": "Autobahn",
+    "amenity": "toilets",
+    "building": "yes",
+    "ele": "467",
+    "id": "way/472417053"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.6673379,
+          47.2501463
+        ],
+        [
+          7.6673657,
+          47.2500968
+        ],
+        [
+          7.6674713,
+          47.2501241
+        ],
+        [
+          7.6674608,
+          47.2501429
+        ],
+        [
+          7.667438,
+          47.250137
+        ],
+        [
+          7.6674208,
+          47.2501678
+        ],
+        [
+          7.6673379,
+          47.2501463
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/474078215",
   "properties": {
     "amenity": "toilets",
@@ -15304,7 +15373,8 @@
     "building:levels": "1",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Münsterhof/Stadthausquai",
     "opening_hours": "24/7",
@@ -15357,7 +15427,8 @@
     "building:levels": "1",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Albisriederplatz",
     "opening_hours": "24/7",
@@ -15512,7 +15583,8 @@
     "building": "toilets",
     "building:levels": "1",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Seebach",
     "opening_hours": "24/7",
@@ -16250,28 +16322,28 @@
     "coordinates": [
       [
         [
-          7.588644,
-          47.5631297
+          7.5886505,
+          47.5631328
         ],
         [
-          7.588657,
-          47.563113
+          7.5886635,
+          47.5631161
         ],
         [
-          7.5886881,
-          47.5631241
+          7.5886946,
+          47.5631272
         ],
         [
-          7.5886805,
-          47.5631339
+          7.588687,
+          47.563137
         ],
         [
-          7.5886751,
-          47.5631408
+          7.5886816,
+          47.5631439
         ],
         [
-          7.588644,
-          47.5631297
+          7.5886505,
+          47.5631328
         ]
       ]
     ]
@@ -16438,24 +16510,24 @@
     "coordinates": [
       [
         [
-          7.6042398,
-          47.574188
+          7.6042832,
+          47.5741761
         ],
         [
-          7.6042509,
-          47.5741323
+          7.6042731,
+          47.5741424
         ],
         [
-          7.6043867,
-          47.5741445
+          7.6043472,
+          47.5741256
         ],
         [
-          7.6043757,
-          47.5742002
+          7.6043568,
+          47.5741568
         ],
         [
-          7.6042398,
-          47.574188
+          7.6042832,
+          47.5741761
         ]
       ]
     ]
@@ -16789,8 +16861,9 @@
     "building": "yes",
     "centralkey": "eurokey",
     "changing_table": "yes",
+    "charge": "1 CHF",
     "construction": "yes",
-    "fee": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "yes",
     "indoor": "room",
     "opening_hours": "24/7",
@@ -19655,7 +19728,9 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
     "unisex": "yes",
+    "wheelchair": "yes",
     "id": "way/856830290"
   },
   "geometry": {
@@ -21005,24 +21080,24 @@
     "coordinates": [
       [
         [
-          7.5916585,
-          47.563233
+          7.5916656,
+          47.56324
         ],
         [
-          7.5916492,
-          47.5632468
+          7.5916539,
+          47.563259
         ],
         [
-          7.5916211,
-          47.5632381
+          7.5916217,
+          47.5632499
         ],
         [
-          7.5916304,
-          47.5632243
+          7.5916333,
+          47.563231
         ],
         [
-          7.5916585,
-          47.563233
+          7.5916656,
+          47.56324
         ]
       ]
     ]
@@ -21137,24 +21212,24 @@
     "coordinates": [
       [
         [
-          7.582328,
-          47.5595521
+          7.5823319,
+          47.5595457
         ],
         [
-          7.5823402,
-          47.5595792
+          7.5823441,
+          47.5595728
         ],
         [
-          7.5823014,
-          47.5595872
+          7.5823053,
+          47.5595808
         ],
         [
-          7.5822892,
-          47.5595601
+          7.5822931,
+          47.5595537
         ],
         [
-          7.582328,
-          47.5595521
+          7.5823319,
+          47.5595457
         ]
       ]
     ]
@@ -22431,6 +22506,85 @@
         [
           8.6629277,
           46.8756472
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/942630131",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "no",
+    "description": "Im Sommer für Badegäste Limmatinsel geöffnet, im Winterhalbjahr geschlossen.",
+    "operator": "Gemeinde Spreitenbach",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "wheelchair": "limited",
+    "id": "way/942630131"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.3721584,
+          47.4338055
+        ],
+        [
+          8.3722532,
+          47.4337903
+        ],
+        [
+          8.3722703,
+          47.4338532
+        ],
+        [
+          8.3721763,
+          47.4338678
+        ],
+        [
+          8.3721584,
+          47.4338055
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/945582486",
+  "properties": {
+    "amenity": "toilets",
+    "building": "toilets",
+    "id": "way/945582486"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.741191,
+          46.6469083
+        ],
+        [
+          7.7411678,
+          46.6468902
+        ],
+        [
+          7.7411956,
+          46.6468734
+        ],
+        [
+          7.7412188,
+          46.6468916
+        ],
+        [
+          7.741191,
+          46.6469083
         ]
       ]
     ]
@@ -23861,7 +24015,8 @@
   "properties": {
     "amenity": "toilets",
     "capacity": "2",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "name": "Carparkplatz",
     "opening_hours": "24/7",
     "operator": "ZüriWC",
@@ -24135,7 +24290,8 @@
   "id": "node/306480500",
   "properties": {
     "amenity": "toilets",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "female": "yes",
     "level": "-1",
     "male": "yes",
@@ -27129,7 +27285,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fixme": "survey required",
     "name": "Heimplatz",
     "operator": "ZüriWC",
@@ -27200,6 +27357,7 @@
     "amenity": "toilets",
     "description": "Kleine unscheinbare Holztür unter dem Hauseingang Nr. 33",
     "fee": "no",
+    "wheelchair": "no",
     "id": "node/451967739"
   },
   "geometry": {
@@ -27695,13 +27853,15 @@
   "properties": {
     "amenity": "toilets",
     "fee": "no",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
     "id": "node/478657989"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4635553,
-      46.9442903
+      7.4635549,
+      46.9443065
     ]
   }
 },
@@ -28378,7 +28538,7 @@
     "opening_hours": "24/7",
     "operator": "ZüriWC",
     "unisex": "yes",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/599156555"
   },
   "geometry": {
@@ -28395,7 +28555,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Albisstrasse",
     "opening_hours": "24/7",
@@ -29413,7 +29574,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Rathauswache",
     "opening_hours": "24/7",
@@ -29810,7 +29972,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Platte",
     "opening_hours": "24/7",
@@ -30143,7 +30306,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Klusplatz",
     "opening_hours": "24/7",
@@ -30321,8 +30485,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7887167,
-      46.350729
+      8.7886958,
+      46.3507295
     ]
   }
 },
@@ -31225,7 +31389,9 @@
   "id": "node/966027785",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "name": "Exterieur Parc Batie/ Cimtière",
+    "wheelchair": "no",
     "id": "node/966027785"
   },
   "geometry": {
@@ -31442,8 +31608,10 @@
   "type": "Feature",
   "id": "node/988251788",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "amenity": "toilets",
+    "construction": "minor",
+    "construction_end_date": "Ende 2021",
     "description": "Raststätte Chölfeld",
     "toilets:disposal": "flush",
     "toilets:position": "seated",
@@ -32060,7 +32228,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Höschgasse",
     "opening_hours": "06:00-22:00",
@@ -32084,7 +32253,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "no",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Milchbuck",
     "opening_hours": "24/7",
@@ -32131,7 +32301,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Stettbach",
     "operator": "ZüriWC",
@@ -32154,7 +32325,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Platzspitz/Walchebrücke",
     "opening_hours": "Mo-Su 06:00-22:00",
@@ -32286,7 +32458,8 @@
   "properties": {
     "amenity": "toilets",
     "capacity": "2",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fixme": "resurvey, capacity is either 2 or 3",
     "name": "Bahnhof Oerlikon",
     "opening_hours": "24/7",
@@ -32309,7 +32482,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Oerlikon Marktplatz",
     "opening_hours": "24/7",
@@ -32379,7 +32553,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Hirschen/Schwamendingen",
     "opening_hours": "24/7",
@@ -32452,7 +32627,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Fritschiwiese",
     "opening_hours": "24/7",
@@ -32519,7 +32695,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Triemli",
     "opening_hours": "24/7",
@@ -32775,7 +32952,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Bullingerhof",
     "operator": "ZüriWC",
@@ -32798,7 +32976,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Lindenplatz",
     "opening_hours": "24/7",
@@ -32843,8 +33022,9 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
+    "charge": "1 CHF",
     "description": "Vom Kiosk betreut; reduzierter Winterbetrieb",
-    "fee": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Josefwiese",
     "opening_hours": "24/7",
@@ -32973,7 +33153,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Zehntenhausplatz",
     "opening_hours": "24/7",
@@ -32997,7 +33178,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Lettenareal",
     "operator": "ZüriWC",
@@ -33728,7 +33910,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Bachstrasse",
     "opening_hours": "24/7",
@@ -33796,7 +33979,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Allmend Fluntern/Zoo",
     "operator": "ZüriWC",
@@ -33818,7 +34002,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Römerhof",
     "opening_hours": "24/7",
@@ -34167,13 +34352,16 @@
   "id": "node/1353752210",
   "properties": {
     "amenity": "toilets",
+    "changing_table": "no",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/1353752210"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6293969,
-      47.572689
+      7.6294119,
+      47.5727775
     ]
   }
 },
@@ -34414,6 +34602,8 @@
   "id": "node/1377180489",
   "properties": {
     "amenity": "toilets",
+    "changing_table": "no",
+    "fee": "no",
     "wheelchair": "yes",
     "id": "node/1377180489"
   },
@@ -34868,7 +35058,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Kreuzplatz",
     "opening_hours": "24/7",
@@ -35851,8 +36042,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.631788,
-      46.738224
+      7.631757,
+      46.738264
     ]
   }
 },
@@ -36300,8 +36491,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7415208,
-      46.6455474
+      7.7415134,
+      46.6454778
     ]
   }
 },
@@ -37217,8 +37408,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6016226,
-      47.5703909
+      7.601564,
+      47.5703766
     ]
   }
 },
@@ -37694,7 +37885,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Hardaupark",
     "operator": "ZüriWC",
@@ -37920,23 +38112,6 @@
     "coordinates": [
       8.3918699,
       46.9337872
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/1860015938",
-  "properties": {
-    "amenity": "toilets",
-    "female": "yes",
-    "male": "yes",
-    "id": "node/1860015938"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.624132,
-      46.507689
     ]
   }
 },
@@ -38215,7 +38390,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Bad Utoquai",
     "opening_hours": "24/7",
@@ -38255,7 +38431,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "name": "Escher-Wyss-Platz",
     "operator": "ZüriWC",
     "unisex": "yes",
@@ -38417,7 +38594,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Oerlikerpark",
     "operator": "ZüriWC",
@@ -38460,7 +38638,8 @@
   "properties": {
     "amenity": "toilets",
     "capacity": "2",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "name": "Bahnhof Altstetten",
     "operator": "SBB",
     "unisex": "yes",
@@ -39579,8 +39758,9 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
+    "charge": "1 CHF",
     "description": "Mit Eurokey 24h zugänglich",
-    "fee": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Rütihof",
     "note": "Umgebaute Anlage, Angaben auf der offiziellen Website veraltet",
@@ -41187,7 +41367,8 @@
     "access": "no",
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Leutschenpark",
     "note": "access with eurokey only",
@@ -41623,7 +41804,8 @@
   "id": "node/2384740878",
   "properties": {
     "amenity": "toilets",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "female": "yes",
     "male": "yes",
     "name": "Bellevue",
@@ -44110,7 +44292,7 @@
     "type": "Point",
     "coordinates": [
       7.560713,
-      47.1993073
+      47.1993231
     ]
   }
 },
@@ -45490,7 +45672,8 @@
     "changing_table": "yes",
     "changing_table:fee": "yes",
     "changing_table:location": "wheelchair_toilet",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Urania",
     "opening_hours": "Mo-Su 06:00-22:00",
@@ -45933,8 +46116,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0643877,
-      46.3923513
+      8.064523,
+      46.3923899
     ]
   }
 },
@@ -46025,8 +46208,9 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "charge": "1 CHF",
     "description": "Nachts geschlossen; Pissoir gratis",
-    "fee": "1 CHF",
+    "fee": "yes",
     "name": "Zürichhorn/Lakeside",
     "operator": "ZüriWC",
     "toilets:disposal": "flush",
@@ -46444,14 +46628,16 @@
     "amenity": "toilets",
     "name": "WC Friedhof",
     "operator": "Gemeinde Niedergesteln",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
     "wheelchair": "yes",
     "id": "node/3027624987"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7824171,
-      46.3138097
+      7.7824002,
+      46.3138081
     ]
   }
 },
@@ -48096,8 +48282,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2893068,
-      46.8348122
+      8.2892996,
+      46.8348335
     ]
   }
 },
@@ -48809,7 +48995,7 @@
   "type": "Feature",
   "id": "node/3414229277",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "id": "node/3414229277"
   },
@@ -48912,7 +49098,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Burgwies",
     "operator": "ZüriWC",
@@ -49045,8 +49232,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5813867,
-      47.5583436
+      7.5814429,
+      47.5583286
     ]
   }
 },
@@ -49279,7 +49466,7 @@
   "type": "Feature",
   "id": "node/3518132179",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "fee": "no",
     "operator": "H. Jakober",
@@ -49381,9 +49568,10 @@
   "type": "Feature",
   "id": "node/3547265847",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "id": "node/3547265847"
   },
   "geometry": {
@@ -50024,7 +50212,8 @@
   "id": "node/3634963531",
   "properties": {
     "amenity": "toilets",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Waidberg/Waldwiese",
     "opening_hours": "24/7",
@@ -50147,8 +50336,9 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
+    "charge": "1 CHF",
     "description": "Mit Eurokey 24h zugänglich",
-    "fee": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Pfingstweid",
     "opening_hours": "06:00-22:00",
@@ -54849,6 +55039,8 @@
   "id": "node/4239460751",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "no",
     "id": "node/4239460751"
   },
   "geometry": {
@@ -55782,7 +55974,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Albisgütli",
     "operator": "ZüriWC",
@@ -57059,8 +57252,14 @@
   "type": "Feature",
   "id": "node/4410327538",
   "properties": {
+    "access": "permissive",
     "amenity": "toilets",
+    "changing_table": "yes",
+    "changing_table:fee": "no",
+    "changing_table:location": "wheelchair_toilet",
+    "fee": "no",
     "source": "GPS & survey",
+    "toilets:wheelchair": "designated",
     "id": "node/4410327538"
   },
   "geometry": {
@@ -57284,8 +57483,9 @@
     "addr:place": "ShopVille",
     "addr:postcode": "8001",
     "amenity": "toilets",
+    "charge": "1 CHF",
     "description": "Das WC befindet sich unterirdisch zw. Ausgang Bahnhofstrasse und Ausgang Bahnhofquai",
-    "fee": "1 CHF",
+    "fee": "yes",
     "female": "yes",
     "indoor": "yes",
     "level": "-1",
@@ -59188,8 +59388,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2571641,
-      46.8095985
+      9.2571389,
+      46.8096012
     ]
   }
 },
@@ -59798,7 +59998,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Artergut",
     "opening_hours": "24/7",
@@ -59867,7 +60068,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Central",
     "opening_hours": "24/7",
@@ -59890,8 +60092,9 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
+    "charge": "1 CHF",
     "description": "An die Öffnungszeiten des Parks gebunden",
-    "fee": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Beckenhof",
     "operator": "ZüriWC",
@@ -59983,7 +60186,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Buchegg GZ",
     "operator": "ZüriWC",
@@ -60046,7 +60250,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Meierhofplatz",
     "operator": "ZüriWC",
@@ -60068,7 +60273,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Rehalp",
     "opening_hours": "24/7",
@@ -60091,7 +60297,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Bachwiesen",
     "operator": "ZüriWC",
@@ -60135,7 +60342,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "name": "Bahnhof Altstetten/Vulkanplatz",
     "operator": "ZüriWC",
     "unisex": "yes",
@@ -60177,8 +60385,9 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
+    "charge": "1 CHF",
     "description": "Im Untergrund beim Kiosk; an die Betriebszeiten des Bahnhofs gebunden",
-    "fee": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Bahnhof Hardbrücke",
     "operator": "ZüriWC",
@@ -60201,7 +60410,8 @@
     "amenity": "toilets",
     "centralkey": "eurokey",
     "changing_table": "yes",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Limmatplatz",
     "opening_hours": "24/7",
@@ -60224,8 +60434,9 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
+    "charge": "1 CHF",
     "description": "An die Öffnungszeiten der Rio Bar gebunden",
-    "fee": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Gessnerallee",
     "opening_hours": "Mo-Fr 08:00-24:00; Sa 09:00-24:00; Su 10:00-22:00",
@@ -60252,8 +60463,9 @@
     "addr:postcode": "8001",
     "amenity": "toilets",
     "centralkey": "eurokey",
+    "charge": "1 CHF",
     "description": "Das WC befindet sich unterirdisch zw. Ausgang Bahnhofstrasse und Ausgang Bahnhofquai",
-    "fee": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "fixme": "survey required, 24/7 access is probably with eurokey only",
     "indoor": "yes",
@@ -60347,7 +60559,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Albisrieden Pünt",
     "opening_hours": "24/7",
@@ -60370,7 +60583,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Lochergut",
     "opening_hours": "24/7",
@@ -60526,7 +60740,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Hafen Enge",
     "opening_hours": "24/7",
@@ -60659,7 +60874,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "level": "-1",
     "name": "Max-Frisch-Platz",
@@ -60726,7 +60942,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Witikon Zentrum",
     "operator": "ZüriWC",
@@ -60769,7 +60986,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "fixme": "survey required, not sure why it's called Behinderten-WC",
     "name": "Neumünster",
@@ -60793,7 +61011,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Hafen Riesbach",
     "opening_hours": "24/7",
@@ -60880,7 +61099,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Zürichhorn",
     "opening_hours": "24/7",
@@ -61938,8 +62158,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5009444,
-      46.8195644
+      6.5009767,
+      46.8196107
     ]
   }
 },
@@ -64131,7 +64351,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Hardplatz",
     "operator": "ZüriWC",
@@ -65304,7 +65525,8 @@
   "properties": {
     "amenity": "toilets",
     "centralkey": "eurokey",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "fee:centralkey": "no",
     "name": "Stauffacher",
     "opening_hours": "24/7",
@@ -66168,8 +66390,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1681929,
-      46.8077304
+      7.1681992,
+      46.8077435
     ]
   }
 },
@@ -66509,6 +66731,7 @@
   "type": "Feature",
   "id": "node/5566194721",
   "properties": {
+    "access": "permissive",
     "amenity": "toilets",
     "id": "node/5566194721"
   },
@@ -68746,8 +68969,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6095074,
-      46.2040715
+      8.6095326,
+      46.2041268
     ]
   }
 },
@@ -68912,14 +69135,15 @@
   "properties": {
     "amenity": "toilets",
     "toilets:position": "seated",
+    "unisex": "yes",
     "wheelchair": "yes",
     "id": "node/5825309254"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2893275,
-      46.8258437
+      9.2893614,
+      46.8258282
     ]
   }
 },
@@ -70105,6 +70329,8 @@
   "id": "node/5966550076",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/5966550076"
   },
   "geometry": {
@@ -70190,7 +70416,8 @@
   "id": "node/5977985333",
   "properties": {
     "amenity": "toilets",
-    "fee": "1 CHF",
+    "charge": "1 CHF",
+    "fee": "yes",
     "id": "node/5977985333"
   },
   "geometry": {
@@ -71459,6 +71686,7 @@
   "id": "node/6158530723",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "wheelchair": "yes",
     "id": "node/6158530723"
   },
@@ -71817,7 +72045,9 @@
   "type": "Feature",
   "id": "node/6221074971",
   "properties": {
+    "access": "yes",
     "amenity": "toilets",
+    "toilets:disposal": "flush",
     "id": "node/6221074971"
   },
   "geometry": {
@@ -72036,6 +72266,7 @@
     "female": "yes",
     "male": "yes",
     "toilets:position": "seated;urinal",
+    "wheelchair": "yes",
     "id": "node/6295786083"
   },
   "geometry": {
@@ -72082,13 +72313,14 @@
   "id": "node/6299114287",
   "properties": {
     "amenity": "toilets",
+    "check_date": "2021-05-24",
     "id": "node/6299114287"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5507492,
-      47.3004013
+      8.550724,
+      47.3004132
     ]
   }
 },
@@ -75672,22 +75904,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6744604922",
-  "properties": {
-    "amenity": "toilets",
-    "opening_hours": "Mar-Nov",
-    "id": "node/6744604922"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6430404,
-      46.7439836
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6746437885",
   "properties": {
     "amenity": "toilets",
@@ -78612,8 +78828,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0580719,
-      46.3893771
+      8.0581282,
+      46.3894123
     ]
   }
 },
@@ -82321,6 +82537,9 @@
   "id": "node/7881717428",
   "properties": {
     "amenity": "toilets",
+    "female": "yes",
+    "level": "-1",
+    "male": "yes",
     "id": "node/7881717428"
   },
   "geometry": {
@@ -83081,8 +83300,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6833266,
-      46.2011739
+      8.6833647,
+      46.2012413
     ]
   }
 },
@@ -84296,18 +84515,22 @@
   "type": "Feature",
   "id": "node/8292490206",
   "properties": {
+    "access": "customers",
     "amenity": "toilets",
+    "changing_table": "yes",
     "description": "Restaurant und neuer Campingplatz im Frutigressort",
-    "operator": "Restaurant Bemato",
-    "unisex": "yes",
+    "female": "yes",
+    "male": "yes",
+    "operator": "Restaurant BEMATO",
+    "toilets:disposal": "flush",
     "wheelchair": "yes",
     "id": "node/8292490206"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6546603,
-      46.5934856
+      7.6546008,
+      46.5935159
     ]
   }
 },
@@ -85257,8 +85480,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5829381,
-      47.5705197
+      7.5830791,
+      47.5705831
     ]
   }
 },
@@ -85585,10 +85808,12 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
-    "changing_table": "no",
+    "changing_table": "yes",
     "changing_table:location": "wheelchair_toilet",
     "description": "Open for public when restaurant is open.",
     "fee": "no",
+    "female": "yes",
+    "male": "yes",
     "wheelchair": "designated",
     "id": "node/8528556423"
   },
@@ -86488,8 +86713,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.63587,
-      46.7546488
+      7.635781,
+      46.754668
     ]
   }
 },
@@ -86702,8 +86927,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2475973,
-      47.135806
+      7.2475544,
+      47.1358005
     ]
   }
 },
@@ -88233,7 +88458,7 @@
   "id": "node/8607902966",
   "properties": {
     "amenity": "toilets",
-    "toilets:disposal": "chemical",
+    "toilets:disposal": "pitlatrine",
     "unisex": "yes",
     "id": "node/8607902966"
   },
@@ -88251,7 +88476,7 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
-    "toilets:disposal": "chemical",
+    "toilets:disposal": "pitlatrine",
     "unisex": "yes",
     "wheelchair": "no",
     "id": "node/8607902967"
@@ -88269,7 +88494,7 @@
   "id": "node/8607902968",
   "properties": {
     "amenity": "toilets",
-    "toilets:disposal": "chemical",
+    "toilets:disposal": "pitlatrine",
     "unisex": "yes",
     "id": "node/8607902968"
   },
@@ -89273,26 +89498,980 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2110425,
-      47.2689244
+      8.2110097,
+      47.2689021
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/8719994422",
+  "id": "node/8722859383",
   "properties": {
     "access": "yes",
     "amenity": "toilets",
-    "female": "yes",
-    "wheelchair": "limited",
-    "id": "node/8719994422"
+    "id": "node/8722859383"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2110485,
-      47.2689187
+      7.6224385,
+      47.5472547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017556",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017556"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6145322,
+      47.5551995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017557",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017557"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5655315,
+      47.5570467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017558",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017558"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6366417,
+      47.5701888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017559",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017559"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5909562,
+      47.5484963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017561",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6267818,
+      47.5624485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017562",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017562"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.593641,
+      47.5325158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017563",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017563"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6514354,
+      47.5750292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017570",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6449144,
+      47.5927548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017571",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5872512,
+      47.5516121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017572",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "toilets:position": "urinal",
+    "id": "node/8723017572"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5843265,
+      47.5592461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017573",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017573"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6101456,
+      47.5539414
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017574",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6651286,
+      47.5710974
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017575",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5571716,
+      47.5717784
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017576",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "male": "yes",
+    "toilets:position": "urinal",
+    "id": "node/8723017576"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5919036,
+      47.5663148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017578",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "male": "yes",
+    "toilets:position": "urinal",
+    "id": "node/8723017578"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5911615,
+      47.5530068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017579",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017579"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5917394,
+      47.5253384
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017580",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017580"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5892429,
+      47.5621542
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017581",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "no",
+    "fee": "no",
+    "wheelchair": "yes",
+    "id": "node/8723017581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6413097,
+      47.5815305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017582",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017582"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6161968,
+      47.5390489
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017583",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017583"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5861563,
+      47.5765527
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017584",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017584"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6550963,
+      47.5904713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017585",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017585"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6165529,
+      47.5703382
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017586",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017586"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5864358,
+      47.5803172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017591",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017591"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6021801,
+      47.5624271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017592",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6580047,
+      47.5737681
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017593",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017593"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.588369,
+      47.5583311
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017594",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017594"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5926293,
+      47.5672413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017599",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017599"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5693435,
+      47.5577394
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017600",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017600"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6511422,
+      47.5871416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017608",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017608"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5936981,
+      47.561924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8723017609",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8723017609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5741284,
+      47.5749521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8726447218",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes",
+    "id": "node/8726447218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5662196,
+      47.319275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728217652",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "drinking_water": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:position": "seated;urinal",
+    "id": "node/8728217652"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5586064,
+      46.5098364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8733582017",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8733582017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6655573,
+      46.3310203
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8733809581",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8733809581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7931695,
+      47.205754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734528295",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8734528295"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0629754,
+      47.1143668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8743644045",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8743644045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2811841,
+      47.3880002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8749927269",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8749927269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1182718,
+      46.2111125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8750700888",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "no",
+    "portable": "no",
+    "toilets:disposal": "chemical",
+    "toilets:handwashing": "no",
+    "unisex": "yes",
+    "wheelchair": "no",
+    "id": "node/8750700888"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.156051,
+      46.8004676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8757749717",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8757749717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.9092599,
+      46.4898148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8758110493",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8758110493"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3837227,
+      46.9639387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8760859826",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "id": "node/8760859826"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3529638,
+      46.8267252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8764059266",
+  "properties": {
+    "amenity": "toilets",
+    "name": "WC Friedhofsparkplatz",
+    "id": "node/8764059266"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7585929,
+      47.1295931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8766081294",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8766081294"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6747467,
+      47.0896328
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8773064282",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8773064282"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3428331,
+      47.0474418
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8776023577",
+  "properties": {
+    "amenity": "toilets",
+    "female": "yes",
+    "male": "yes",
+    "id": "node/8776023577"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.527628,
+      47.5178114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8776654551",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
+    "id": "node/8776654551"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5392281,
+      47.3238366
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8777591701",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8777591701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1568633,
+      47.0935812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8777591702",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8777591702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1566895,
+      47.0937596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8778891124",
+  "properties": {
+    "amenity": "toilets",
+    "name": "Toi Toi WC",
+    "id": "node/8778891124"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2202414,
+      47.2512838
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8780787704",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8780787704"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3934885,
+      47.4355611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8780817620",
+  "properties": {
+    "amenity": "toilets",
+    "opening_hours": "Mo-We, Fr 08:00-19:00; Th 08:00-21:00; Sa 08:00-17:00",
+    "id": "node/8780817620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3918709,
+      47.4355818
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8786102423",
+  "properties": {
+    "amenity": "toilets",
+    "portable": "yes",
+    "id": "node/8786102423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1810371,
+      47.36358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8786158506",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "id": "node/8786158506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1601537,
+      46.4484889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8786228561",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8786228561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0216039,
+      46.7568168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8786802486",
+  "properties": {
+    "amenity": "toilets",
+    "name": "Toilette",
+    "id": "node/8786802486"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4635028,
+      47.2876308
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8787149451",
+  "properties": {
+    "amenity": "toilets",
+    "centralkey": "eurokey",
+    "disabled": "designated",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "id": "node/8787149451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4635751,
+      46.9442877
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8787336694",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "pitlatrine",
+    "unisex": "yes",
+    "id": "node/8787336694"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2834448,
+      47.5828935
     ]
   }
 }
