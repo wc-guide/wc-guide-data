@@ -1,0 +1,13 @@
+[out:json][timeout:3000];
+(
+//WC's ganze USA
+area["ISO3166-1"="US"];
+)->.searchArea;
+// gather results
+(
+nwr["amenity"="toilets"](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;

@@ -52,6 +52,12 @@ cat $DIR/queries/toilets_spain.txt | python $DIR/overpass_query.py | osmtogeojso
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganze USA
+
+echo -ne "Query WC's ganze USA...           "
+cat $DIR/queries/toilets_us.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_us.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
 -------
 # WC's weltweit
 
