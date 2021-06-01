@@ -24,6 +24,35 @@ cat $DIR/queries/toilets_germany.txt | python $DIR/overpass_query.py | osmtogeoj
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganz Österreich
+
+echo -ne "Query WC's ganz Österreich...           "
+cat $DIR/queries/toilets_austria.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_austria.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Italien
+
+echo -ne "Query WC's ganz Italien...           "
+cat $DIR/queries/toilets_italy.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_italy.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Frankreich
+
+echo -ne "Query WC's ganz Frankreich...           "
+cat $DIR/queries/toilets_france.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_france.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Spanien
+
+echo -ne "Query WC's ganz Spanien...           "
+cat $DIR/queries/toilets_spain.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_spain.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+-------
 # WC's weltweit
 
 #echo -ne "Query WC's weltweit...           "
