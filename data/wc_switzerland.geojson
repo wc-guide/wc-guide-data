@@ -27853,13 +27853,15 @@
   "properties": {
     "amenity": "toilets",
     "fee": "no",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
     "id": "node/478657989"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4635553,
-      46.9442903
+      7.4635549,
+      46.9443065
     ]
   }
 },
@@ -83296,8 +83298,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6833266,
-      46.2011739
+      8.6833647,
+      46.2012413
     ]
   }
 },
@@ -90362,6 +90364,112 @@
     "coordinates": [
       9.3918709,
       47.4355818
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8786102423",
+  "properties": {
+    "amenity": "toilets",
+    "portable": "yes",
+    "id": "node/8786102423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1810371,
+      47.36358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8786158506",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "id": "node/8786158506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1601537,
+      46.4484889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8786228561",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8786228561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0216039,
+      46.7568168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8786802486",
+  "properties": {
+    "amenity": "toilets",
+    "name": "Toilette",
+    "id": "node/8786802486"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4635028,
+      47.2876308
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8787149451",
+  "properties": {
+    "amenity": "toilets",
+    "centralkey": "eurokey",
+    "disabled": "designated",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "id": "node/8787149451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4635751,
+      46.9442877
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8787336694",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "pitlatrine",
+    "unisex": "yes",
+    "id": "node/8787336694"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2834448,
+      47.5828935
     ]
   }
 }
