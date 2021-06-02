@@ -42711,8 +42711,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1530608,
-      46.8330753
+      7.1527454,
+      46.8330729
     ]
   }
 },
@@ -46628,14 +46628,16 @@
     "amenity": "toilets",
     "name": "WC Friedhof",
     "operator": "Gemeinde Niedergesteln",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
     "wheelchair": "yes",
     "id": "node/3027624987"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7824171,
-      46.3138097
+      7.7824002,
+      46.3138081
     ]
   }
 },
@@ -52005,6 +52007,8 @@
   "properties": {
     "access": "public",
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "no",
     "id": "node/3804099216"
   },
   "geometry": {
@@ -83313,8 +83317,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6489248,
-      46.1651988
+      8.6487759,
+      46.1652267
     ]
   }
 },
@@ -87425,25 +87429,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8559802964",
-  "properties": {
-    "access": "yes",
-    "amenity": "toilets",
-    "description": "Nette Toilette",
-    "name": "Confiserie Bachmann \"Schifflände\"",
-    "network": "Nette Toilette",
-    "id": "node/8559802964"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5875706,
-      47.5600006
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8559821085",
   "properties": {
     "access": "yes",
@@ -90470,6 +90455,21 @@
     "coordinates": [
       9.2834448,
       47.5828935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8790207537",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8790207537"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0171231,
+      47.5192227
     ]
   }
 }
