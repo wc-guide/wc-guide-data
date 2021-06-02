@@ -26,7 +26,7 @@ echo ""
 
 # WC's ganz Österreich
 
-echo -ne "Query WC's ganz Österreich...           "
+echo -ne "Query WC's ganz Oesterreich...           "
 cat $DIR/queries/toilets_austria.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_austria.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
