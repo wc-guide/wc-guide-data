@@ -77102,8 +77102,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4571721,
-      46.9920519
+      7.45718,
+      46.9920637
     ]
   }
 },
@@ -90470,6 +90470,64 @@
     "coordinates": [
       8.0171231,
       47.5192227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8791563550",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8791563550"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3411381,
+      46.7483194
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8793972944",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "operator": "Compotoi",
+    "toilets:disposal": "pitlatrine",
+    "unisex": "yes",
+    "wheelchair": "no",
+    "id": "node/8793972944"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.622265,
+      47.3981695
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8793972949",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "operator": "Compotoi",
+    "toilets:disposal": "pitlatrine",
+    "unisex": "yes",
+    "wheelchair": "no",
+    "id": "node/8793972949"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6224783,
+      47.3975608
     ]
   }
 }
