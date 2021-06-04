@@ -19475,12 +19475,24 @@
           46.818003
         ],
         [
-          6.782817,
-          46.818115
+          6.7830028,
+          46.81803
         ],
         [
-          6.7826857,
-          46.8180283
+          6.7828886,
+          46.8180948
+        ],
+        [
+          6.7828626,
+          46.8180734
+        ],
+        [
+          6.7827737,
+          46.8181294
+        ],
+        [
+          6.7826358,
+          46.8180391
         ],
         [
           6.7828439,
@@ -24723,16 +24735,19 @@
   "id": "node/322795056",
   "properties": {
     "amenity": "toilets",
-    "fee": "yes",
-    "opening_hours": "Mo-Fr 08:30-15:00",
+    "changing_table": "no",
+    "fee": "no",
+    "operator": "Kompotoi",
+    "toilets:disposal": "pitlatrine",
+    "toilets:handwashing": "no",
     "unisex": "yes",
     "id": "node/322795056"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5292955,
-      47.3929059
+      8.5287071,
+      47.3931861
     ]
   }
 },
@@ -42711,8 +42726,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1530608,
-      46.8330753
+      7.1527454,
+      46.8330729
     ]
   }
 },
@@ -44331,7 +44346,7 @@
   "type": "Feature",
   "id": "node/2698555596",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "fee": "no",
     "source": "bing, survey",
@@ -52007,6 +52022,8 @@
   "properties": {
     "access": "public",
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "no",
     "id": "node/3804099216"
   },
   "geometry": {
@@ -77100,8 +77117,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4571721,
-      46.9920519
+      7.45718,
+      46.9920637
     ]
   }
 },
@@ -83315,8 +83332,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6489248,
-      46.1651988
+      8.6487759,
+      46.1652267
     ]
   }
 },
@@ -87427,25 +87444,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8559802964",
-  "properties": {
-    "access": "yes",
-    "amenity": "toilets",
-    "description": "Nette Toilette",
-    "name": "Confiserie Bachmann \"Schifflände\"",
-    "network": "Nette Toilette",
-    "id": "node/8559802964"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5875706,
-      47.5600006
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8559821085",
   "properties": {
     "access": "yes",
@@ -90472,6 +90470,79 @@
     "coordinates": [
       9.2834448,
       47.5828935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8790207537",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8790207537"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0171231,
+      47.5192227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8791563550",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8791563550"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3411381,
+      46.7483194
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8793972944",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "operator": "Compotoi",
+    "toilets:disposal": "pitlatrine",
+    "unisex": "yes",
+    "wheelchair": "no",
+    "id": "node/8793972944"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.622265,
+      47.3981695
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8793972949",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "operator": "Compotoi",
+    "toilets:disposal": "pitlatrine",
+    "unisex": "yes",
+    "wheelchair": "no",
+    "id": "node/8793972949"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6224783,
+      47.3975608
     ]
   }
 }
