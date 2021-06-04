@@ -31,3 +31,16 @@ cat $DIR/queries/toilets_austria.txt | python $DIR/overpass_query.py | osmtogeoj
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganz Italien
+
+echo -ne "Query Toiletten ganz Italien...           "
+cat $DIR/queries/toilets_italy.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_italy.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Italien
+
+echo -ne "Query Toiletten ganz Italien...           "
+cat $DIR/queries/toilets_italy.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_italy.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
