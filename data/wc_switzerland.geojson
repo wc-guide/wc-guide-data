@@ -14081,7 +14081,9 @@
     "addr:street": "Bahnhofstrasse",
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
     "source:geometry": "Geodaten Kanton Glarus 2020",
+    "wheelchair": "no",
     "id": "way/444203683"
   },
   "geometry": {
@@ -20291,6 +20293,8 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "way/893607885"
   },
   "geometry": {
@@ -24735,16 +24739,19 @@
   "id": "node/322795056",
   "properties": {
     "amenity": "toilets",
-    "fee": "yes",
-    "opening_hours": "Mo-Fr 08:30-15:00",
+    "changing_table": "no",
+    "fee": "no",
+    "operator": "Kompotoi",
+    "toilets:disposal": "pitlatrine",
+    "toilets:handwashing": "no",
     "unisex": "yes",
     "id": "node/322795056"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5292955,
-      47.3929059
+      8.5287071,
+      47.3931861
     ]
   }
 },
@@ -47057,6 +47064,8 @@
   "id": "node/3063195027",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/3063195027"
   },
   "geometry": {
@@ -89273,8 +89282,8 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "changing_table": "no",
     "description": "Temporäres WC ca. April-Oktober",
-    "diaper": "no",
     "fee": "no",
     "name": "Kompotoi Spielplatz Förenwäldli",
     "operator": "Verkehrsverein Schmerikon",
@@ -90540,6 +90549,21 @@
     "coordinates": [
       8.6224783,
       47.3975608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8805372550",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8805372550"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0705396,
+      46.6323204
     ]
   }
 }
