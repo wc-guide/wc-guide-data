@@ -86347,6 +86347,23 @@
       48.2033973
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8808728433",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "unisex": "yes",
+    "id": "node/8808728433"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.1272059,
+      46.7252792
+    ]
+  }
 }
 ]
 }
