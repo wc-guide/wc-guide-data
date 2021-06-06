@@ -1,9 +1,0 @@
-[out:json][timeout:25];
-// gather results
-(
-nwr["amenity"="toilets"];
-);
-// print results
-out body;
->;
-out skel qt;

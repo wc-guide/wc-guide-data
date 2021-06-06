@@ -1,7 +1,7 @@
-[out:json][timeout:25];
+[out:json][timeout:3000];
 (
-//ganze Schweiz WC's
-area["ISO3166-1"="CH"];
+//WC's ganze USA
+area["ISO3166-1"="US"];
 )->.searchArea;
 // gather results
 (
