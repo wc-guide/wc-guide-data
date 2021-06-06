@@ -53,7 +53,7 @@ echo ""
 #cat $DIR/queries/toilets_us.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_us.geojson
 #echo -ne "\t\t - Done.\r"
 #echo ""
--------
+
 # WC's weltweit
 
 #echo -ne "Query WC's weltweit...           "
