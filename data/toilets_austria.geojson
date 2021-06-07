@@ -8540,6 +8540,7 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
     "source:geometry": "wien.at",
     "wheelchair": "no",
     "id": "way/176812230"
@@ -39001,6 +39002,7 @@
     "amenity": "toilets",
     "description": "Citygarage",
     "fee": "no",
+    "level": "-1",
     "wheelchair": "yes",
     "id": "node/1315862788"
   },
@@ -55379,7 +55381,7 @@
   "type": "Feature",
   "id": "node/3184327194",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "drinking_water": "no",
     "source": "gps",
@@ -84542,6 +84544,7 @@
     "access": "yes",
     "amenity": "toilets",
     "changing_table": "yes",
+    "fee": "no",
     "wheelchair": "yes",
     "id": "node/8375491363"
   },
@@ -86345,6 +86348,54 @@
     "coordinates": [
       16.3779959,
       48.2033973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8808728433",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "unisex": "yes",
+    "id": "node/8808728433"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.1272059,
+      46.7252792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8809197688",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8809197688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.2445666,
+      47.7539598
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8809331655",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8809331655"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      16.3524547,
+      48.2293849
     ]
   }
 }
