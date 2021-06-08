@@ -37018,6 +37018,7 @@
   "id": "node/1699631647",
   "properties": {
     "amenity": "toilets",
+    "check_date:wheelchair": "2021-06-07",
     "fee": "no",
     "female": "no",
     "male": "yes",
@@ -47363,8 +47364,10 @@
   "type": "Feature",
   "id": "node/3111595118",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
+    "fee": "no",
+    "male": "yes",
     "toilets:disposal": "flush",
     "id": "node/3111595118"
   },
@@ -57712,6 +57715,8 @@
   "id": "node/4471486690",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "no",
     "id": "node/4471486690"
   },
   "geometry": {
@@ -69171,8 +69176,11 @@
   "type": "Feature",
   "id": "node/5825870131",
   "properties": {
+    "access": "yes",
     "amenity": "toilets",
     "fee": "no",
+    "female": "yes",
+    "toilets:disposal": "flush",
     "id": "node/5825870131"
   },
   "geometry": {

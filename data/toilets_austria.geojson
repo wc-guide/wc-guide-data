@@ -36837,14 +36837,22 @@
   "type": "Feature",
   "id": "node/926613573",
   "properties": {
+    "access": "yes",
     "amenity": "toilets",
+    "drinking_water": "no",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:paper_supplied": "yes",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "no",
     "id": "node/926613573"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      13.845605,
-      47.7567832
+      13.8453911,
+      47.7568202
     ]
   }
 },
@@ -47594,8 +47602,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      16.3780703,
-      47.7425559
+      16.3781052,
+      47.7425821
     ]
   }
 },
@@ -60617,21 +60625,6 @@
     "coordinates": [
       16.3607065,
       48.1105802
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3973808890",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/3973808890"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      13.1758264,
-      47.7908543
     ]
   }
 },
@@ -86396,6 +86389,81 @@
     "coordinates": [
       16.3524547,
       48.2293849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8811863254",
+  "properties": {
+    "amenity": "toilets",
+    "fee": "no",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "toilets:handwashing": "yes",
+    "wheelchair": "yes",
+    "id": "node/8811863254"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.822548,
+      48.0237354
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8811945571",
+  "properties": {
+    "amenity": "toilets",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "node/8811945571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.1754576,
+      47.7905575
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8811945575",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "toilets:disposal": "flush",
+    "unisex": "yes",
+    "wheelchair": "no",
+    "id": "node/8811945575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.1758579,
+      47.7908334
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8812776807",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "drinking_water": "yes",
+    "female": "yes",
+    "male": "yes",
+    "id": "node/8812776807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      16.1792839,
+      47.7140988
     ]
   }
 }
