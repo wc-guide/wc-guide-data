@@ -47043,7 +47043,9 @@
   "type": "Feature",
   "id": "node/3060565367",
   "properties": {
+    "access": "no",
     "amenity": "toilets",
+    "changing_table": "no",
     "drinking_water": "yes",
     "id": "node/3060565367"
   },

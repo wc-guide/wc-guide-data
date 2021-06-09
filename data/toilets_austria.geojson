@@ -26508,6 +26508,7 @@
     "amenity": "toilets",
     "building": "yes",
     "fee": "no",
+    "wheelchair": "yes",
     "id": "way/628594387"
   },
   "geometry": {
