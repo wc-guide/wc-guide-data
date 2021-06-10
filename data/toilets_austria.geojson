@@ -32106,6 +32106,58 @@
 },
 {
   "type": "Feature",
+  "id": "way/952707702",
+  "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/952707702"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          10.6201532,
+          47.181734
+        ],
+        [
+          10.62017,
+          47.1817148
+        ],
+        [
+          10.6202077,
+          47.1817078
+        ],
+        [
+          10.6202398,
+          47.181722
+        ],
+        [
+          10.6202451,
+          47.1817452
+        ],
+        [
+          10.620227,
+          47.1817659
+        ],
+        [
+          10.6201922,
+          47.1817715
+        ],
+        [
+          10.6201573,
+          47.1817576
+        ],
+        [
+          10.6201532,
+          47.181734
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/26899701",
   "properties": {
     "access": "yes",
@@ -45378,8 +45430,8 @@
   "properties": {
     "amenity": "toilets",
     "fee": "no",
-    "note": "Pissoir",
     "operator": "Stadt Wien",
+    "toilets:position": "urinal",
     "wheelchair": "no",
     "id": "node/1870541322"
   },
@@ -61076,21 +61128,6 @@
     "coordinates": [
       13.6540191,
       47.3760346
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4036916222",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/4036916222"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.620197,
-      47.1817283
     ]
   }
 },
@@ -86465,6 +86502,38 @@
     "coordinates": [
       16.1792839,
       47.7140988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8819016571",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8819016571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      16.311175,
+      48.1963704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8819037263",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "unisex": "yes",
+    "id": "node/8819037263"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.6163389,
+      47.6406995
     ]
   }
 }

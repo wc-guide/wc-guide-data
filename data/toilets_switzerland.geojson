@@ -1108,7 +1108,7 @@
   "type": "Feature",
   "id": "way/59079782",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "building": "yes",
     "fee": "no",
@@ -61434,6 +61434,7 @@
   "id": "node/4889381712",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "yes",
     "id": "node/4889381712"
   },
   "geometry": {
@@ -84076,8 +84077,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4486919,
-      46.9473361
+      7.4486869,
+      46.9473237
     ]
   }
 },
