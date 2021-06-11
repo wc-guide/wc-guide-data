@@ -40850,6 +40850,9 @@
   "id": "node/1418194538",
   "properties": {
     "amenity": "toilets",
+    "charge": "0.50 EUR",
+    "fee": "yes",
+    "level": "-1",
     "wheelchair": "yes",
     "id": "node/1418194538"
   },
@@ -44677,8 +44680,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      16.3755782,
-      48.2678274
+      16.375548,
+      48.2677471
     ]
   }
 },
@@ -77189,6 +77192,7 @@
     "description": "Dixi-Klo",
     "fee": "no",
     "unisex": "yes",
+    "wheelchair": "no",
     "id": "node/6656760564"
   },
   "geometry": {
@@ -86534,6 +86538,44 @@
     "coordinates": [
       13.6163389,
       47.6406995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8821072113",
+  "properties": {
+    "amenity": "toilets",
+    "operator": "Rathaus",
+    "wheelchair": "yes",
+    "id": "node/8821072113"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.0456211,
+      48.94399
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8821143470",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "no",
+    "fee": "no",
+    "male": "yes",
+    "toilets:position": "urinal",
+    "wheelchair": "no",
+    "id": "node/8821143470"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      16.3929453,
+      48.2176335
     ]
   }
 }

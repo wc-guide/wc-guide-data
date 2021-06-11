@@ -78636,8 +78636,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1422676,
-      47.256547
+      9.1422326,
+      47.256561
     ]
   }
 },
@@ -82335,7 +82335,9 @@
   "id": "node/7873387806",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "operator": "Restaurant Rhygarte",
+    "wheelchair": "limited",
     "id": "node/7873387806"
   },
   "geometry": {
@@ -90554,6 +90556,21 @@
     "coordinates": [
       8.0705396,
       46.6323204
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8822216620",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8822216620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6497712,
+      47.4471793
     ]
   }
 }
