@@ -50881,6 +50881,7 @@
   "id": "node/2489041089",
   "properties": {
     "amenity": "toilets",
+    "fee": "yes",
     "unisex": "yes",
     "wheelchair": "yes",
     "id": "node/2489041089"
@@ -60128,13 +60129,14 @@
   "id": "node/3838670070",
   "properties": {
     "amenity": "toilets",
+    "name": "Insel WC",
     "id": "node/3838670070"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      16.4025405,
-      48.23903
+      16.4025351,
+      48.2390403
     ]
   }
 },
