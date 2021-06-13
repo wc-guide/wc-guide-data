@@ -49299,7 +49299,7 @@
   "type": "Feature",
   "id": "node/3487462040",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "description": "Sous-Sol",
     "fee": "no",
@@ -60372,7 +60372,7 @@
   "id": "node/4851815724",
   "properties": {
     "amenity": "toilets",
-    "fee": "no",
+    "fee": "yes",
     "name": "Pfingstweid",
     "opening_hours": "24/7",
     "operator": "ZüriWC",

@@ -3095,6 +3095,7 @@
     "fee": "no",
     "noaddress": "yes",
     "operator": "Stadt Wien",
+    "roof:shape": "hipped",
     "toilets:disposal": "flush",
     "toilets:wheelchair": "yes",
     "unisex": "yes",
@@ -6049,6 +6050,7 @@
     "access": "yes",
     "amenity": "toilets",
     "building": "toilets",
+    "fee": "no",
     "toilets:disposal": "flush",
     "wheelchair": "yes",
     "id": "way/152808355"
@@ -58290,7 +58292,6 @@
   "type": "Feature",
   "id": "node/3634894508",
   "properties": {
-    "access": "public",
     "amenity": "toilets",
     "fee": "yes",
     "id": "node/3634894508"
@@ -68085,6 +68086,7 @@
     "fee": "no",
     "level": "0",
     "unisex": "yes",
+    "wheelchair": "yes",
     "id": "node/5109837843"
   },
   "geometry": {
@@ -77112,6 +77114,8 @@
   "id": "node/6654165735",
   "properties": {
     "amenity": "toilets",
+    "fee": "yes",
+    "wheelchair": "yes",
     "id": "node/6654165735"
   },
   "geometry": {
@@ -77119,21 +77123,6 @@
     "coordinates": [
       11.704113,
       47.4376942
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6654165736",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/6654165736"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      11.7041807,
-      47.4375628
     ]
   }
 },
@@ -79989,8 +79978,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      14.2484495,
-      48.2791072
+      14.2482121,
+      48.2790456
     ]
   }
 },
@@ -86578,6 +86567,51 @@
     "coordinates": [
       16.3929453,
       48.2176335
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8828081558",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8828081558"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.5365809,
+      46.8558597
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8828100389",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8828100389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.3661428,
+      46.751999
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8828104893",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8828104893"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.2590737,
+      46.7185869
     ]
   }
 }
