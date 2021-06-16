@@ -1739,6 +1739,44 @@
 },
 {
   "type": "Feature",
+  "id": "way/87244875",
+  "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "wheelchair": "yes",
+    "id": "way/87244875"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.2634182,
+          47.0133864
+        ],
+        [
+          8.2635221,
+          47.0133984
+        ],
+        [
+          8.2635047,
+          47.0134685
+        ],
+        [
+          8.2634009,
+          47.0134565
+        ],
+        [
+          8.2634182,
+          47.0133864
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/87386057",
   "properties": {
     "amenity": "toilets",
@@ -15435,6 +15473,7 @@
     "name": "Albisriederplatz",
     "opening_hours": "24/7",
     "operator": "ZüriWC",
+    "roof:shape": "flat",
     "toilets:disposal": "flush",
     "unisex": "yes",
     "wheelchair": "yes",
@@ -26713,6 +26752,7 @@
     "amenity": "toilets",
     "fee": "no",
     "note": "ToiToi",
+    "wheelchair": "no",
     "id": "node/414192805"
   },
   "geometry": {
@@ -28854,23 +28894,6 @@
     "coordinates": [
       9.1833703,
       46.9177537
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/613450408",
-  "properties": {
-    "amenity": "toilets",
-    "fee": "no",
-    "wheelchair": "yes",
-    "id": "node/613450408"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2634786,
-      47.0134234
     ]
   }
 },
@@ -51067,7 +51090,7 @@
   "type": "Feature",
   "id": "node/3699663780",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "id": "node/3699663780"
   },
@@ -69152,6 +69175,7 @@
   "id": "node/5825309254",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "toilets:position": "seated",
     "unisex": "yes",
     "wheelchair": "yes",
@@ -90678,6 +90702,51 @@
     "coordinates": [
       7.5627291,
       46.9268616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8831685274",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8831685274"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5621808,
+      46.9266958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8831685275",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8831685275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5622858,
+      46.9266789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8832558466",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8832558466"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.315532,
+      46.8134657
     ]
   }
 }
