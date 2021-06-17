@@ -40687,15 +40687,14 @@
     "amenity": "toilets",
     "fee": "no",
     "operator": "Stadt Thun",
-    "source": "knowledge",
     "unisex": "yes",
     "id": "node/2270887662"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6301219,
-      46.7598531
+      7.6301169,
+      46.7600577
     ]
   }
 },
@@ -57959,6 +57958,8 @@
   "id": "node/4524562513",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "limited",
     "id": "node/4524562513"
   },
   "geometry": {
@@ -76716,6 +76717,7 @@
   "id": "node/6858727654",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "yes",
     "id": "node/6858727654"
   },
   "geometry": {
@@ -90747,6 +90749,38 @@
     "coordinates": [
       9.315532,
       46.8134657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8838214018",
+  "properties": {
+    "amenity": "toilets",
+    "opening_hours": "Mo-Sa 08:30-19:00",
+    "id": "node/8838214018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3955588,
+      47.4310506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8839217355",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "id": "node/8839217355"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9289949,
+      46.2788265
     ]
   }
 }

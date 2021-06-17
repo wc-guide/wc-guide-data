@@ -54984,6 +54984,7 @@
   "id": "node/2447420631",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "limited",
     "id": "node/2447420631"
   },
   "geometry": {
@@ -91466,6 +91467,21 @@
     "coordinates": [
       16.4312609,
       48.2168309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8837868119",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8837868119"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.2161189,
+      47.8556563
     ]
   }
 }
