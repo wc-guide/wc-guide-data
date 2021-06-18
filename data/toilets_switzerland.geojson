@@ -67725,6 +67725,7 @@
   "id": "node/5705761952",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "wheelchair": "no",
     "id": "node/5705761952"
   },
@@ -89732,6 +89733,9 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "changing_table": "no",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/8723017574"
   },
   "geometry": {

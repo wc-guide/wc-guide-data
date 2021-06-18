@@ -59114,6 +59114,7 @@
   "id": "node/3045856515",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "id": "node/3045856515"
   },
   "geometry": {
@@ -91436,14 +91437,15 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "name": "WC",
     "unisex": "yes",
     "id": "node/8837018626"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      14.8928746,
-      48.1502827
+      14.8928694,
+      48.150264
     ]
   }
 },
