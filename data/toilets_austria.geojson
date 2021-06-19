@@ -59113,6 +59113,7 @@
   "type": "Feature",
   "id": "node/3045856515",
   "properties": {
+    "access": "customers",
     "amenity": "toilets",
     "fee": "no",
     "id": "node/3045856515"
