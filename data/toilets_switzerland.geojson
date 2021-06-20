@@ -14305,6 +14305,44 @@
 },
 {
   "type": "Feature",
+  "id": "way/449340623",
+  "properties": {
+    "addr:housenumber": "90",
+    "addr:street": "Wallisellenstrasse",
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/449340623"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.5556477,
+          47.4106272
+        ],
+        [
+          8.5556476,
+          47.4106043
+        ],
+        [
+          8.555681,
+          47.4106042
+        ],
+        [
+          8.555681,
+          47.4106272
+        ],
+        [
+          8.5556477,
+          47.4106272
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/449890563",
   "properties": {
     "amenity": "toilets",
@@ -22653,24 +22691,28 @@
     "coordinates": [
       [
         [
-          6.6118175,
-          46.5591961
+          6.6118182,
+          46.5591969
         ],
         [
-          6.6116823,
-          46.5591677
+          6.6118163,
+          46.5591965
         ],
         [
-          6.6117111,
-          46.5591042
+          6.6116829,
+          46.5591679
         ],
         [
-          6.6118456,
-          46.5591335
+          6.6117122,
+          46.5591037
         ],
         [
-          6.6118175,
-          46.5591961
+          6.6118449,
+          46.5591338
+        ],
+        [
+          6.6118182,
+          46.5591969
         ]
       ]
     ]
@@ -22689,24 +22731,24 @@
     "coordinates": [
       [
         [
-          6.6117126,
-          46.5591042
+          6.6117122,
+          46.5591037
         ],
         [
-          6.6117954,
-          46.5591213
+          6.6117967,
+          46.5591219
         ],
         [
-          6.6117686,
-          46.5591872
+          6.6117674,
+          46.5591862
         ],
         [
-          6.6116834,
-          46.5591674
+          6.6116829,
+          46.5591679
         ],
         [
-          6.6117126,
-          46.5591042
+          6.6117122,
+          46.5591037
         ]
       ]
     ]
@@ -32888,21 +32930,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1151959136",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/1151959136"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5556744,
-      47.4106162
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1156658084",
   "properties": {
     "amenity": "toilets",
@@ -37496,7 +37523,13 @@
   "properties": {
     "access": "public",
     "amenity": "toilets",
+    "changing_table": "no",
+    "level": "0",
+    "operator": "Gemeinde Thurnen",
+    "portable": "no",
     "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
     "unisex": "yes",
     "id": "node/1756517994"
   },
@@ -82962,6 +82995,8 @@
   "id": "node/7934534114",
   "properties": {
     "amenity": "toilets",
+    "level": "-1",
+    "wheelchair": "no",
     "id": "node/7934534114"
   },
   "geometry": {
@@ -90879,8 +90914,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8484406,
-      46.8562917
+      6.8483392,
+      46.856249
     ]
   }
 },
@@ -90903,6 +90938,21 @@
     "coordinates": [
       6.8461424,
       46.8555119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8847703817",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8847703817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1109204,
+      46.3186776
     ]
   }
 }
