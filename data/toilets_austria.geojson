@@ -67429,6 +67429,7 @@
   "id": "node/4290968647",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "yes",
     "id": "node/4290968647"
   },
   "geometry": {
@@ -68689,21 +68690,6 @@
     "coordinates": [
       14.9579947,
       47.4184954
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4427821449",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/4427821449"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      14.0796019,
-      47.2721405
     ]
   }
 },
@@ -82066,13 +82052,15 @@
   "id": "node/6691372206",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/6691372206"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      12.7152422,
-      47.2577809
+      12.7153821,
+      47.2577236
     ]
   }
 },
@@ -86235,8 +86223,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.8815029,
-      47.4013037
+      10.8816852,
+      47.4012139
     ]
   }
 },
@@ -88499,6 +88487,8 @@
   "id": "node/7993284760",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/7993284760"
   },
   "geometry": {
@@ -91094,6 +91084,7 @@
   "id": "node/8809331655",
   "properties": {
     "amenity": "toilets",
+    "changing_table": "no",
     "id": "node/8809331655"
   },
   "geometry": {
@@ -91504,6 +91495,36 @@
     "coordinates": [
       15.9870143,
       47.7974655
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8853269921",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8853269921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2678253,
+      47.2614514
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8855195693",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8855195693"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.7548049,
+      48.3660321
     ]
   }
 }
