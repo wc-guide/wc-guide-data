@@ -22756,6 +22756,53 @@
 },
 {
   "type": "Feature",
+  "id": "way/957230856",
+  "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "seamark:small_craft_facility:category": "toilets",
+    "seamark:type": "small_craft_facility",
+    "wheelchair": "yes",
+    "id": "way/957230856"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.3806715,
+          47.5719011
+        ],
+        [
+          9.380665,
+          47.5718899
+        ],
+        [
+          9.380654,
+          47.5718712
+        ],
+        [
+          9.3807649,
+          47.5718368
+        ],
+        [
+          9.3807765,
+          47.5718564
+        ],
+        [
+          9.3807825,
+          47.5718668
+        ],
+        [
+          9.3806715,
+          47.5719011
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/31054226",
   "properties": {
     "amenity": "toilets",
@@ -27946,24 +27993,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/478153521",
-  "properties": {
-    "amenity": "toilets",
-    "seamark:small_craft_facility:category": "toilets",
-    "seamark:type": "small_craft_facility",
-    "wheelchair": "yes",
-    "id": "node/478153521"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3806311,
-      47.5719508
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/478153525",
   "properties": {
     "amenity": "toilets",
@@ -29572,15 +29601,14 @@
   "id": "node/683796826",
   "properties": {
     "amenity": "toilets",
-    "name": "Parkhaus Schönried",
     "wheelchair": "yes",
     "id": "node/683796826"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2865527,
-      46.5031257
+      7.286721,
+      46.5030764
     ]
   }
 },
@@ -41992,8 +42020,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5914945,
-      46.5991248
+      9.5914964,
+      46.5991123
     ]
   }
 },
@@ -43800,22 +43828,6 @@
     "coordinates": [
       9.4653314,
       47.1664508
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2569402879",
-  "properties": {
-    "amenity": "toilets",
-    "source": "OpenStreetbugs",
-    "id": "node/2569402879"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7968329,
-      46.1713063
     ]
   }
 },
@@ -91028,6 +91040,52 @@
     "coordinates": [
       6.5144509,
       46.6604073
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8856473349",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8856473349"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2889202,
+      46.4888809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8857860922",
+  "properties": {
+    "amenity": "toilets",
+    "wheelchair": "no",
+    "id": "node/8857860922"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6373437,
+      46.9891062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8857886550",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8857886550"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2719707,
+      46.4176433
     ]
   }
 }
