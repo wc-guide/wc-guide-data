@@ -26074,8 +26074,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1449285,
-      46.4237537
+      7.1450912,
+      46.4236471
     ]
   }
 },
@@ -38229,6 +38229,8 @@
   "id": "node/1845679384",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/1845679384"
   },
   "geometry": {
@@ -39186,13 +39188,14 @@
     "amenity": "toilets",
     "description": "Arrêt de bus",
     "fee": "no",
+    "unisex": "yes",
     "id": "node/1976302584"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6620468,
-      46.5058664
+      6.6620546,
+      46.5058637
     ]
   }
 },
@@ -55103,14 +55106,15 @@
     "amenity": "toilets",
     "changing_table": "no",
     "fee": "no",
+    "male": "yes",
     "toilets:disposal": "flush",
     "id": "node/4230658840"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.66006,
-      46.5057152
+      6.6600662,
+      46.5057163
     ]
   }
 },
@@ -74228,6 +74232,7 @@
     "fee": "no",
     "female": "yes",
     "male": "yes",
+    "wheelchair": "yes",
     "id": "node/6528577937"
   },
   "geometry": {
@@ -91086,6 +91091,45 @@
     "coordinates": [
       7.2719707,
       46.4176433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8859900419",
+  "properties": {
+    "amenity": "toilets",
+    "changing_table": "no",
+    "fee": "no",
+    "female": "yes",
+    "toilets:disposal": "flush",
+    "id": "node/8859900419"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6600141,
+      46.5057132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8860102082",
+  "properties": {
+    "amenity": "toilets",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "name": "Garderobe und Toiletten",
+    "toilets:wheelchair": "no",
+    "id": "node/8860102082"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3194904,
+      46.8330541
     ]
   }
 }
