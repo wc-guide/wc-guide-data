@@ -31327,7 +31327,6 @@
     "building": "yes",
     "toilets:disposal": "flush",
     "unisex": "yes",
-    "wheelchair": "yes",
     "id": "way/632384179"
   },
   "geometry": {
@@ -65036,7 +65035,6 @@
     "amenity": "toilets",
     "fee": "yes",
     "unisex": "yes",
-    "wheelchair": "limited",
     "id": "node/3888725885"
   },
   "geometry": {
@@ -70688,10 +70686,8 @@
   "id": "node/4879860021",
   "properties": {
     "amenity": "toilets",
-    "fee": "no",
     "opening_hours": "24/7",
     "operator": "public",
-    "wheelchair": "no",
     "id": "node/4879860021"
   },
   "geometry": {
@@ -91489,21 +91485,6 @@
     "coordinates": [
       13.2161189,
       47.8556563
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8849155616",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/8849155616"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      15.9870143,
-      47.7974655
     ]
   }
 }
