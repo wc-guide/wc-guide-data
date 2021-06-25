@@ -91543,6 +91543,41 @@
       47.4536037
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8862941261",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8862941261"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.0800882,
+      48.166889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8863784533",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "drinking_water": "yes",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes",
+    "id": "node/8863784533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.7727959,
+      48.0508705
+    ]
+  }
 }
 ]
 }

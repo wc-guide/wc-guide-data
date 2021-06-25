@@ -16503,6 +16503,56 @@
 },
 {
   "type": "Feature",
+  "id": "way/579681117",
+  "properties": {
+    "addr:city": "Boltigen",
+    "addr:country": "CH",
+    "addr:housenumber": "97c",
+    "addr:postcode": "3766",
+    "addr:street": "Dorf",
+    "amenity": "toilets",
+    "building": "yes",
+    "ele": "817",
+    "id": "way/579681117"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.3898515,
+          46.62732
+        ],
+        [
+          7.3898097,
+          46.627299
+        ],
+        [
+          7.3898336,
+          46.6272765
+        ],
+        [
+          7.3898459,
+          46.6272828
+        ],
+        [
+          7.3898505,
+          46.6272783
+        ],
+        [
+          7.38988,
+          46.6272931
+        ],
+        [
+          7.3898515,
+          46.62732
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/579781292",
   "properties": {
     "amenity": "toilets",
@@ -91130,6 +91180,70 @@
     "coordinates": [
       9.3194904,
       46.8330541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8862680879",
+  "properties": {
+    "amenity": "toilets",
+    "fee": "no",
+    "id": "node/8862680879"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3746636,
+      46.5533482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8863272301",
+  "properties": {
+    "amenity": "toilets",
+    "changing_table": "no",
+    "fee": "no",
+    "id": "node/8863272301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2105096,
+      46.4906732
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8863272304",
+  "properties": {
+    "amenity": "toilets",
+    "level": "-1",
+    "id": "node/8863272304"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1322867,
+      46.474869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8863493850",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8863493850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2214748,
+      47.6215497
     ]
   }
 }
