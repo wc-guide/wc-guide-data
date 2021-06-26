@@ -36831,6 +36831,46 @@
 },
 {
   "type": "Feature",
+  "id": "way/958324291",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "opening_hours": "00:00-24:00",
+    "wheelchair": "yes",
+    "id": "way/958324291"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          16.4478475,
+          48.2720072
+        ],
+        [
+          16.4478651,
+          48.2719832
+        ],
+        [
+          16.4479119,
+          48.2719985
+        ],
+        [
+          16.4478942,
+          48.2720225
+        ],
+        [
+          16.4478475,
+          48.2720072
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/26899701",
   "properties": {
     "access": "yes",
@@ -91576,6 +91616,72 @@
     "coordinates": [
       13.7727959,
       48.0508705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8866521984",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "toilets:disposal": "flush",
+    "wheelchair": "no",
+    "id": "node/8866521984"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.1813941,
+      47.1798213
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8866756893",
+  "properties": {
+    "amenity": "toilets",
+    "male": "yes",
+    "id": "node/8866756893"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.9265319,
+      47.3954984
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8866756894",
+  "properties": {
+    "amenity": "toilets",
+    "female": "yes",
+    "id": "node/8866756894"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.9265202,
+      47.3955114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8866765038",
+  "properties": {
+    "amenity": "toilets",
+    "unisex": "yes",
+    "id": "node/8866765038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.9161478,
+      47.3999996
     ]
   }
 }

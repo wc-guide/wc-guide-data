@@ -15457,6 +15457,7 @@
     "name": "Münsterhof/Stadthausquai",
     "opening_hours": "24/7",
     "operator": "ZüriWC",
+    "roof:shape": "flat",
     "toilets:disposal": "flush",
     "unisex": "yes",
     "wheelchair": "yes",
@@ -17773,6 +17774,7 @@
   "properties": {
     "amenity": "toilets",
     "building": "toilets",
+    "changing_table": "no",
     "fee": "no",
     "wheelchair": "limited",
     "id": "way/684751178"
@@ -27524,8 +27526,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.2512757,
-      46.6229786
+      6.2513448,
+      46.622992
     ]
   }
 },
@@ -35055,6 +35057,7 @@
   "id": "node/1391515856",
   "properties": {
     "amenity": "toilets",
+    "changing_table": "no",
     "fee": "no",
     "wheelchair": "yes",
     "id": "node/1391515856"
@@ -37738,6 +37741,8 @@
   "id": "node/1768091283",
   "properties": {
     "amenity": "toilets",
+    "check_date:wheelchair": "2021-06-25",
+    "fee": "no",
     "wheelchair": "yes",
     "id": "node/1768091283"
   },
@@ -46518,6 +46523,7 @@
   "properties": {
     "amenity": "toilets",
     "description": "Parkhaus See",
+    "fee": "no",
     "name": "Fischmarkplatz",
     "unisex": "yes",
     "wheelchair": "yes",
@@ -74426,8 +74432,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.2803837,
-      46.6464597
+      6.2804045,
+      46.6464408
     ]
   }
 },
@@ -91244,6 +91250,40 @@
     "coordinates": [
       9.2214748,
       47.6215497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8866711156",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "drinking_water": "yes",
+    "id": "node/8866711156"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6134667,
+      46.9209408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8866711157",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "drinking_water": "yes",
+    "id": "node/8866711157"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.613414,
+      46.9207367
     ]
   }
 }
