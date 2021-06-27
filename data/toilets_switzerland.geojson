@@ -2844,24 +2844,24 @@
     "coordinates": [
       [
         [
-          8.5684342,
-          47.4517026
+          8.5684641,
+          47.4517081
         ],
         [
-          8.568475,
-          47.45164
+          8.568498,
+          47.4516548
         ],
         [
-          8.5685214,
-          47.4516539
+          8.5685446,
+          47.4516683
         ],
         [
-          8.5684806,
-          47.4517164
+          8.5685107,
+          47.4517217
         ],
         [
-          8.5684342,
-          47.4517026
+          8.5684641,
+          47.4517081
         ]
       ]
     ]
@@ -14307,6 +14307,7 @@
   "type": "Feature",
   "id": "way/449340623",
   "properties": {
+    "access": "permit",
     "addr:housenumber": "90",
     "addr:street": "Wallisellenstrasse",
     "amenity": "toilets",
@@ -27204,22 +27205,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/430363494",
-  "properties": {
-    "amenity": "toilets",
-    "fee": "yes",
-    "id": "node/430363494"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6746357,
-      47.1055105
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/430584832",
   "properties": {
     "amenity": "toilets",
@@ -36506,6 +36491,7 @@
   "id": "node/1581074300",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "yes",
     "id": "node/1581074300"
   },
   "geometry": {

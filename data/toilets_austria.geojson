@@ -56165,8 +56165,9 @@
   "type": "Feature",
   "id": "node/2571249354",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
+    "wheelchair": "limited",
     "id": "node/2571249354"
   },
   "geometry": {
