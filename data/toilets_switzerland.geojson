@@ -14307,7 +14307,7 @@
   "type": "Feature",
   "id": "way/449340623",
   "properties": {
-    "access": "permit",
+    "access": "private",
     "addr:housenumber": "90",
     "addr:street": "Wallisellenstrasse",
     "amenity": "toilets",
@@ -22856,6 +22856,42 @@
 },
 {
   "type": "Feature",
+  "id": "way/958618307",
+  "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/958618307"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          9.130286,
+          47.3367965
+        ],
+        [
+          9.1302557,
+          47.3367241
+        ],
+        [
+          9.1303125,
+          47.3367132
+        ],
+        [
+          9.1303428,
+          47.3367856
+        ],
+        [
+          9.130286,
+          47.3367965
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/31054226",
   "properties": {
     "amenity": "toilets",
@@ -25752,7 +25788,9 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "fee": "no",
     "operator": "Ville de Vevey",
+    "wheelchair": "no",
     "id": "node/362767072"
   },
   "geometry": {
@@ -35361,6 +35399,8 @@
   "id": "node/1420803446",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "no",
     "id": "node/1420803446"
   },
   "geometry": {
@@ -82548,8 +82588,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5967322,
-      47.6051391
+      8.596679,
+      47.6051247
     ]
   }
 },

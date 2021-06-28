@@ -38285,6 +38285,7 @@
   "id": "node/379695370",
   "properties": {
     "amenity": "toilets",
+    "changing_table": "no",
     "fee": "no",
     "wheelchair": "yes",
     "id": "node/379695370"
@@ -58687,21 +58688,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2994806903",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/2994806903"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      12.9756314,
-      47.2888397
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2998450329",
   "properties": {
     "amenity": "toilets",
@@ -71862,8 +71848,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      14.4238647,
-      46.7836767
+      14.4237815,
+      46.7834895
     ]
   }
 },
@@ -91207,8 +91193,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      16.1792839,
-      47.7140988
+      16.1792846,
+      47.7141006
     ]
   }
 },
@@ -91683,6 +91669,56 @@
     "coordinates": [
       12.9161478,
       47.3999996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8869359055",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8869359055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.2969398,
+      47.0156128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8869805418",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "female": "no",
+    "male": "no",
+    "unisex": "yes",
+    "id": "node/8869805418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6396091,
+      47.3229483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8869971530",
+  "properties": {
+    "amenity": "toilets",
+    "operator": "Bahnhof Pfaffstätten",
+    "id": "node/8869971530"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      16.258967,
+      48.0184946
     ]
   }
 }
