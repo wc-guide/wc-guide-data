@@ -22892,6 +22892,45 @@
 },
 {
   "type": "Feature",
+  "id": "way/958766332",
+  "properties": {
+    "addr:postcode": "6374",
+    "amenity": "toilets",
+    "building": "yes",
+    "drinking_water": "yes",
+    "wheelchair": "no",
+    "id": "way/958766332"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.4463914,
+          46.9721639
+        ],
+        [
+          8.4463702,
+          46.9721364
+        ],
+        [
+          8.4464577,
+          46.9721049
+        ],
+        [
+          8.446479,
+          46.9721324
+        ],
+        [
+          8.4463914,
+          46.9721639
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/31054226",
   "properties": {
     "amenity": "toilets",
@@ -37593,23 +37632,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1748455924",
-  "properties": {
-    "addr:postcode": "6374",
-    "amenity": "toilets",
-    "wheelchair": "no",
-    "id": "node/1748455924"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4466415,
-      46.9721204
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1754600166",
   "properties": {
     "amenity": "toilets",
@@ -44208,6 +44230,7 @@
   "id": "node/2629932858",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "name": "Weisshorn Mittelstation",
     "unisex": "yes",
     "wheelchair": "yes",
@@ -44418,7 +44441,7 @@
   "type": "Feature",
   "id": "node/2669122674",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "amenity": "toilets",
     "wheelchair": "yes",
     "id": "node/2669122674"
@@ -91310,6 +91333,25 @@
     "coordinates": [
       6.613414,
       46.9207367
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8872687551",
+  "properties": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "description": "ToiToi",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "node/8872687551"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3235617,
+      47.0549431
     ]
   }
 }
