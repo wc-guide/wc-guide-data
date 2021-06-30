@@ -16234,6 +16234,49 @@
 },
 {
   "type": "Feature",
+  "id": "way/548560744",
+  "properties": {
+    "addr:city": "Lauterbrunnen",
+    "addr:country": "CH",
+    "addr:housenumber": "481a",
+    "addr:postcode": "3822",
+    "addr:street": "Station",
+    "amenity": "toilets",
+    "building": "yes",
+    "ele": "789",
+    "wheelchair": "yes",
+    "id": "way/548560744"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.9083763,
+          46.598981
+        ],
+        [
+          7.9084467,
+          46.5989151
+        ],
+        [
+          7.9085025,
+          46.5989434
+        ],
+        [
+          7.9084321,
+          46.5990094
+        ],
+        [
+          7.9083763,
+          46.598981
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/549156369",
   "properties": {
     "addr:city": "Birsfelden",
@@ -29792,22 +29835,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/708860203",
-  "properties": {
-    "amenity": "toilets",
-    "wheelchair": "yes",
-    "id": "node/708860203"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9084564,
-      46.5989695
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/708911047",
   "properties": {
     "amenity": "toilets",
@@ -36576,8 +36603,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0426342,
-      46.48589
+      7.0425671,
+      46.4858647
     ]
   }
 },
@@ -87134,8 +87161,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2438605,
-      47.1347327
+      7.24382,
+      47.1347426
     ]
   }
 },
