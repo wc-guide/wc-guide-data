@@ -30827,22 +30827,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/849529038",
-  "properties": {
-    "NOTE": "Toilets closed (unknown for how long)",
-    "amenity": "toilets",
-    "id": "node/849529038"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9778573,
-      46.0039134
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/851175030",
   "properties": {
     "amenity": "toilets",
@@ -31464,8 +31448,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9769687,
-      46.0012536
+      8.9768464,
+      46.0012756
     ]
   }
 },
@@ -75201,8 +75185,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1310721,
-      46.4740495
+      7.1310026,
+      46.4740544
     ]
   }
 },
@@ -83743,8 +83727,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8644281,
-      46.7888301
+      9.864349,
+      46.7887952
     ]
   }
 },
@@ -87200,8 +87184,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2468666,
-      47.1379351
+      7.2468575,
+      47.1378323
     ]
   }
 },
@@ -91309,8 +91293,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1322867,
-      46.474869
+      7.1323677,
+      46.4747672
     ]
   }
 },
