@@ -29247,12 +29247,16 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
-    "description": "Öffentliches WC",
+    "bottle": "yes",
+    "changing_table": "no",
+    "drinking_water": "yes",
     "fee": "no",
     "female": "yes",
     "male": "yes",
     "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
     "toilets:position": "seated;urinal",
+    "wheelchair": "no",
     "id": "way/754060173"
   },
   "geometry": {
@@ -83016,12 +83020,17 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "bottle": "yes",
+    "changing_table": "no",
     "drinking_water": "yes",
     "fee": "no",
     "female": "yes",
     "male": "yes",
     "note": "nur geöffnet, wenn der Imbiss offen hat",
-    "toilets:wheelchair": "no",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "yes",
     "id": "node/7840908668"
   },
   "geometry": {
@@ -83036,12 +83045,18 @@
   "type": "Feature",
   "id": "node/7840908669",
   "properties": {
+    "access": "yes",
     "amenity": "toilets",
+    "changing_table": "yes",
     "drinking_water": "yes",
     "fee": "no",
     "female": "yes",
     "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
     "toilets:wheelchair": "yes",
+    "wheelchair": "yes",
     "id": "node/7840908669"
   },
   "geometry": {
@@ -84648,16 +84663,21 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "drinking_water": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
     "operator": "Stadtgemeinde Vöcklabruck",
-    "unisex": "yes",
+    "toilets:disposal": "flush",
+    "toilets:position": "seated;urinal",
     "wheelchair": "yes",
     "id": "node/8363370873"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      13.6536145,
-      48.0115424
+      13.6536191,
+      48.0115389
     ]
   }
 },
