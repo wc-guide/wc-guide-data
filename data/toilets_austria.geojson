@@ -5173,6 +5173,8 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "way/132195775"
   },
   "geometry": {
@@ -41231,6 +41233,7 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "fee": "no",
     "shower": "yes",
     "toilets:disposal": "flush",
     "wheelchair": "yes",
@@ -46713,6 +46716,8 @@
   "id": "node/2001214899",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes",
     "id": "node/2001214899"
   },
   "geometry": {
@@ -79273,7 +79278,9 @@
   "id": "node/6888646061",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "toilets:disposal": "flush",
+    "wheelchair": "yes",
     "id": "node/6888646061"
   },
   "geometry": {

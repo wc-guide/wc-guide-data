@@ -88930,6 +88930,7 @@
   "properties": {
     "access": "yes",
     "amenity": "toilets",
+    "wheelchair": "no",
     "id": "node/8629066381"
   },
   "geometry": {
