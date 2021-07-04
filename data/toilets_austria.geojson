@@ -60739,6 +60739,7 @@
   "id": "node/3955910142",
   "properties": {
     "amenity": "toilets",
+    "wheelchair": "yes",
     "id": "node/3955910142"
   },
   "geometry": {
@@ -83812,6 +83813,7 @@
   "id": "node/7948161366",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "toilets:disposal": "flush",
     "wheelchair": "no",
     "id": "node/7948161366"
@@ -87221,6 +87223,21 @@
     "coordinates": [
       16.5615946,
       48.5777094
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8889511119",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8889511119"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.8346799,
+      47.3318015
     ]
   }
 }
