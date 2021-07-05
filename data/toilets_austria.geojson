@@ -8077,9 +8077,11 @@
     "amenity": "toilets",
     "amount": ",50 EUR",
     "building": "yes",
+    "changing_table": "no",
     "description": "costs 50 Eurocent",
     "fee": "yes",
     "payment:coins": "yes",
+    "wheelchair": "no",
     "id": "way/172941408"
   },
   "geometry": {
@@ -8506,6 +8508,8 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "changing_table": "no",
+    "fee": "yes",
     "source:geometry": "wien.at",
     "wheelchair": "no",
     "id": "way/176812208"
@@ -10548,6 +10552,7 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "changing_table": "no",
     "fee": "no",
     "toilets:disposal": "flush",
     "toilets:wheelchair": "yes",
@@ -14614,8 +14619,17 @@
   "type": "Feature",
   "id": "way/303786908",
   "properties": {
+    "access": "yes",
     "amenity": "toilets",
+    "bottle": "yes",
     "building": "yes",
+    "drinking_water": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
     "wheelchair": "yes",
     "id": "way/303786908"
   },
@@ -16147,6 +16161,7 @@
   "properties": {
     "amenity": "toilets",
     "building": "yes",
+    "building:levels": "1",
     "fee": "no",
     "opening_hours": "summer",
     "wheelchair": "no",
@@ -22007,24 +22022,24 @@
     "coordinates": [
       [
         [
-          10.2875039,
-          47.0112061
+          10.2876018,
+          47.0110944
         ],
         [
-          10.2877784,
-          47.0110118
+          10.2876973,
+          47.01102
         ],
         [
-          10.2878579,
-          47.0110658
+          10.2877328,
+          47.0110412
         ],
         [
-          10.2875788,
-          47.011257
+          10.2876373,
+          47.0111156
         ],
         [
-          10.2875039,
-          47.0112061
+          10.2876018,
+          47.0110944
         ]
       ]
     ]
@@ -45625,6 +45640,8 @@
   "id": "node/1873010713",
   "properties": {
     "amenity": "toilets",
+    "changing_table": "no",
+    "fee": "yes",
     "wheelchair": "no",
     "wheelchair:description": "getestet von FORSCH!13",
     "id": "node/1873010713"
@@ -52675,6 +52692,7 @@
   "properties": {
     "access": "customers",
     "amenity": "toilets",
+    "changing_table": "yes",
     "drinking_water": "yes",
     "fee": "no",
     "toilets:disposal": "flush",
@@ -56663,8 +56681,10 @@
   "properties": {
     "access": "public",
     "amenity": "toilets",
+    "changing_table": "no",
     "charge": "0.5 €",
     "fee": "yes",
+    "wheelchair": "yes",
     "id": "node/3387884030"
   },
   "geometry": {
@@ -57073,6 +57093,7 @@
   "id": "node/3447435741",
   "properties": {
     "amenity": "toilets",
+    "changing_table": "yes",
     "fee": "yes",
     "level": "-1",
     "toilets:wheelchair": "yes",
@@ -57145,9 +57166,11 @@
   "id": "node/3455249976",
   "properties": {
     "amenity": "toilets",
+    "changing_table": "yes",
     "fee": "no",
     "level": "0",
     "opening_hours": "Apr-Jun 08:30-17:30; Jul-Aug 08:30-18:30; Sep-Oct 08:30-17:30; Nov-Mar 08:30 -17:00",
+    "wheelchair": "yes",
     "id": "node/3455249976"
   },
   "geometry": {
@@ -74185,7 +74208,9 @@
     "access": "key",
     "amenity": "toilets",
     "centralkey": "eurokey",
+    "changing_table": "no",
     "description:en": "Dedicated toilets for wheelchair users",
+    "fee": "no",
     "level": "0",
     "name": "Behinderten-WC",
     "unisex": "yes",
@@ -87238,6 +87263,21 @@
     "coordinates": [
       12.8346799,
       47.3318015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8892348217",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8892348217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.4947645,
+      47.7510716
     ]
   }
 }

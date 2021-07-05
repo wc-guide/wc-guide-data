@@ -38308,7 +38308,11 @@
     "access": "yes",
     "amenity": "toilets",
     "changing_table": "no",
-    "unisex": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "survey:date": "2021-05-23",
+    "toilets:disposal": "flush",
     "id": "node/1834662376"
   },
   "geometry": {
@@ -46062,6 +46066,7 @@
     "name": "Hafen Wollishofen",
     "opening_hours": "24/7",
     "operator": "ZüriWC",
+    "survey:date": "2021-05-09",
     "unisex": "yes",
     "wheelchair": "no",
     "id": "node/2926136479"
@@ -72064,21 +72069,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6162316564",
-  "properties": {
-    "amenity": "toilets",
-    "id": "node/6162316564"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.858202,
-      46.2222335
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6165483713",
   "properties": {
     "amenity": "toilets",
@@ -74180,6 +74170,7 @@
   "id": "node/6511417059",
   "properties": {
     "amenity": "toilets",
+    "fee": "no",
     "wheelchair": "yes",
     "id": "node/6511417059"
   },
@@ -89466,9 +89457,13 @@
     "amenity": "toilets",
     "fee": "no",
     "female": "yes",
+    "handwashing:soap": "no",
+    "hot_water": "no",
     "male": "yes",
-    "survey:date": "2021-04-23",
+    "survey:date": "2021-04-25",
     "toilets:disposal": "flush",
+    "toilets:hand_drying": "no",
+    "toilets:handwashing": "yes",
     "wheelchair": "no",
     "id": "node/8659401517"
   },
@@ -91469,6 +91464,37 @@
     "coordinates": [
       7.1415495,
       46.6186637
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8891761477",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8891761477"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9180806,
+      47.5611783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8892301919",
+  "properties": {
+    "amenity": "toilets",
+    "portable": "yes",
+    "id": "node/8892301919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5465857,
+      46.7334305
     ]
   }
 }
