@@ -9661,6 +9661,45 @@
 },
 {
   "type": "Feature",
+  "id": "way/190240914",
+  "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "yes",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "way/190240914"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          11.1881816,
+          47.3313238
+        ],
+        [
+          11.1881338,
+          47.3312516
+        ],
+        [
+          11.1882816,
+          47.3312284
+        ],
+        [
+          11.1883116,
+          47.3312942
+        ],
+        [
+          11.1881816,
+          47.3313238
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/190494844",
   "properties": {
     "amenity": "toilets",
@@ -41545,14 +41584,18 @@
   "type": "Feature",
   "id": "node/1444569880",
   "properties": {
+    "access": "yes",
     "amenity": "toilets",
+    "changing_table": "yes",
+    "unisex": "yes",
+    "wheelchair": "yes",
     "id": "node/1444569880"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      15.8579959,
-      47.3153303
+      15.858007,
+      47.315328
     ]
   }
 },
@@ -58358,23 +58401,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3612723893",
-  "properties": {
-    "amenity": "toilets",
-    "name": "Eden car park",
-    "wheelchair": "yes",
-    "id": "node/3612723893"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      11.188217,
-      47.331264
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3617572912",
   "properties": {
     "amenity": "toilets",
@@ -71582,8 +71608,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      14.1707185,
-      48.3316966
+      14.1705891,
+      48.3316788
     ]
   }
 },
@@ -86129,8 +86155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      14.1699265,
-      48.3300208
+      14.1699366,
+      48.3299936
     ]
   }
 },
@@ -87278,6 +87304,62 @@
     "coordinates": [
       13.4947645,
       47.7510716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8894816298",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "unisex": "yes",
+    "id": "node/8894816298"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      14.9203968,
+      48.1357611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8895041754",
+  "properties": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "no",
+    "drinking_water": "yes",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "toilets:handwashing": "yes",
+    "toilets:position": "seated;urinal",
+    "unisex": "yes",
+    "wheelchair": "yes",
+    "id": "node/8895041754"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.6720841,
+      47.9516028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8895280727",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8895280727"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      15.1512517,
+      47.0527118
     ]
   }
 }
