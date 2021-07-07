@@ -38575,23 +38575,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1873339845",
-  "properties": {
-    "amenity": "toilets",
-    "female": "yes",
-    "male": "yes",
-    "id": "node/1873339845"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.613793,
-      46.516123
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1873372410",
   "properties": {
     "amenity": "toilets",
@@ -40166,8 +40149,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6401155,
-      47.6727843
+      8.640356,
+      47.6727863
     ]
   }
 },
@@ -75839,6 +75822,7 @@
     "female": "yes",
     "male": "yes",
     "toilets:position": "seated;urinal",
+    "wheelchair": "no",
     "id": "node/6690871313"
   },
   "geometry": {
@@ -91504,6 +91488,21 @@
     "coordinates": [
       9.5465857,
       46.7334305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8898515770",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/8898515770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2804333,
+      47.3884706
     ]
   }
 }

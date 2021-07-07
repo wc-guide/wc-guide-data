@@ -8193,6 +8193,7 @@
     "amenity": "toilets",
     "building": "yes",
     "fee": "no",
+    "wheelchair": "no",
     "id": "way/174848763"
   },
   "geometry": {
@@ -87360,6 +87361,22 @@
     "coordinates": [
       15.1512517,
       47.0527118
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8897603714",
+  "properties": {
+    "amenity": "toilets",
+    "name": "WC am Friedhof",
+    "id": "node/8897603714"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      13.8347193,
+      48.1567484
     ]
   }
 }
