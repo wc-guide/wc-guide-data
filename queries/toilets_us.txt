@@ -1,4 +1,4 @@
-[out:json][timeout:3000];
+[out:json][timeout:9000];
 (
 //WC's ganze USA
 area["ISO3166-1"="US"];
