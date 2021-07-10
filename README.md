@@ -63,3 +63,10 @@ Um ein neues Query hinzuzufügen, müssen folgende Schritte befolgt werden:
 1. Query schreiben und via http://overpass-turbo.osm.ch/ testen. **ACHTUNG:** es ist nur die Overpass Query Syntax unterstützt, **keine [Overpass Turbo Shortcuts](https://wiki.openstreetmap.org/wiki/Overpass_turbo/Extended_Overpass_Turbo_Queries)** (z.B. ` {{geocodeArea:CH-ZH}}`)
 1. Query als neue Datei in [`queries` Verzeichnis](https://github.com/Schutz-Rettung-Zurich/json-archive/tree/main/queries) ablegen
 1. Neues Query in [`run_queries.sh`](https://github.com/Schutz-Rettung-Zurich/json-archive/blob/main/run_queries.sh) aufrufen
+
+### Datenübergabe ans Backend
+
+Die Daten können per script ans Backend gesendet werden, siehe folgendes Beispiel:
+```bash
+python publish/publish.py -u <username> -p <password> -b <backend_url> -n <name> -f <relativ_file_path>
+```
