@@ -1,7 +1,7 @@
 [out:json][timeout:9000];
 (
-//WC's ganz Belgien
-area["ISO3166-1"="BE"];
+//WC's ganz Bulgarien
+area["ISO3166-1"="BG"];
 )->.searchArea;
 // gather results
 (
