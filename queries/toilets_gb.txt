@@ -1,7 +1,7 @@
 [out:json][timeout:9000];
 (
-//WC's ganze UK
-area["ISO3166-1"="UK"];
+//WC's ganz Grossbritannien
+area["ISO3166-1"="GB"];
 )->.searchArea;
 // gather results
 (
