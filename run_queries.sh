@@ -244,7 +244,7 @@ echo ""
 # WC's ganzes Vereinigtes Königreich
 
 echo -ne "Query Toiletten ganzes Vereinigtes Königreich...           "
-cat $DIR/queries/toilets_uk.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_uk.geojson
+cat $DIR/queries/toilets_gb.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_gb.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
