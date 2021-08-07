@@ -12,7 +12,7 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # WC's ganze Welt
 
-echo -ne "Query Toiletten ganz Oesterreich...           "
+echo -ne "Query Toiletten gane Welt...           "
 cat $DIR/queries/toilets_world.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_world.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
