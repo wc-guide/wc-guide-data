@@ -283,6 +283,13 @@ cat $DIR/queries/toilets_switzerland.txt | python $DIR/overpass_query.py | osmto
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganz Südafrika
+
+echo -ne "Query Toiletten ganz Südafrika...           "
+cat $DIR/queries/toilets_south_africa.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_south_africa.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # WC's ganzes Vereinigtes Königreich
 
 echo -ne "Query Toiletten ganzes Vereinigtes Königreich...           "
