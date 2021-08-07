@@ -1,7 +1,7 @@
 [out:json][timeout:9000];
 (
-//ganz Argentinien WC's
-area["ISO3166-1"="AR"];
+//ganz Brasilien WC's
+area["ISO3166-1"="BR"];
 )->.searchArea;
 // gather results
 (
