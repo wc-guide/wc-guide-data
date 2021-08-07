@@ -10,6 +10,13 @@ trap "cleanup" EXIT
 
 DIR="$(cd "$(dirname "$0")" && pwd)"
 
+# WC's ganz Australien
+
+echo -ne "Query Toiletten ganz Australien...           "
+cat $DIR/queries/toilets_australia.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_australia.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # WC's ganz Österreich
 
 echo -ne "Query Toiletten ganz Oesterreich...           "
