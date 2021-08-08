@@ -262,6 +262,13 @@ cat $DIR/queries/toilets_romania.txt | python $DIR/overpass_query.py | osmtogeoj
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganz Russland
+
+echo -ne "Query Toiletten ganz Russland...           "
+cat $DIR/queries/toilets_russia.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_russia.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # WC's ganz Slowakei
 
 echo -ne "Query Toiletten ganz Slowakei...           "
