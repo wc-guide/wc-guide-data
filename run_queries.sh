@@ -10,6 +10,20 @@ trap "cleanup" EXIT
 
 DIR="$(cd "$(dirname "$0")" && pwd)"
 
+# WC's ganz Argentinien
+
+echo -ne "Query Toiletten ganz Argentinien...           "
+cat $DIR/queries/toilets_argentina.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_argentina.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Australien
+
+echo -ne "Query Toiletten ganz Australien...           "
+cat $DIR/queries/toilets_australia.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_australia.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # WC's ganz Österreich
 
 echo -ne "Query Toiletten ganz Oesterreich...           "
@@ -24,10 +38,24 @@ cat $DIR/queries/toilets_belgium.txt | python $DIR/overpass_query.py | osmtogeoj
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganz Brasilien
+
+echo -ne "Query Toiletten ganz Brasilien...           "
+cat $DIR/queries/toilets_brazil.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_brazil.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # WC's ganz Bulgarien
 
 echo -ne "Query Toiletten ganz Bulgarien...           "
 cat $DIR/queries/toilets_bulgary.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_bulgary.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz China
+
+echo -ne "Query Toiletten ganz China...           "
+cat $DIR/queries/toilets_china.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_china.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
@@ -108,6 +136,13 @@ cat $DIR/queries/toilets_hungary.txt | python $DIR/overpass_query.py | osmtogeoj
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganz Indien
+
+echo -ne "Query Toiletten ganz Indien...           "
+cat $DIR/queries/toilets_india.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_india.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # WC's ganz Island
 
 echo -ne "Query Toiletten ganz Island...           "
@@ -126,6 +161,13 @@ echo ""
 
 echo -ne "Query Toiletten ganz Italien...           "
 cat $DIR/queries/toilets_italy.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_italy.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Japan
+
+echo -ne "Query Toiletten ganz Indien...           "
+cat $DIR/queries/toilets_japan.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_japan.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
@@ -178,6 +220,20 @@ cat $DIR/queries/toilets_niederlande.txt | python $DIR/overpass_query.py | osmto
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganz Neuseeland
+
+echo -ne "Query Toiletten ganzes Neuseeland...           "
+cat $DIR/queries/toilets_new_zealand.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_new_zealand.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Nigeria
+
+echo -ne "Query Toiletten ganzes Neuseeland...           "
+cat $DIR/queries/toilets_nigeria.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_nigeria.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # WC's ganz Norwegen
 
 echo -ne "Query Toiletten ganz Norwegen...           "
@@ -203,6 +259,13 @@ echo ""
 
 echo -ne "Query Toiletten ganz Rumänien...           "
 cat $DIR/queries/toilets_romania.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_romania.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Russland
+
+echo -ne "Query Toiletten ganz Russland...           "
+cat $DIR/queries/toilets_russia.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_russia.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
@@ -238,6 +301,34 @@ echo ""
 
 echo -ne "Query Toiletten ganze Schweiz...           "
 cat $DIR/queries/toilets_switzerland.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_switzerland.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Singapur
+
+echo -ne "Query Toiletten ganzes Singapur...           "
+cat $DIR/queries/toilets_singapore.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_singapore.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Südafrika
+
+echo -ne "Query Toiletten ganz Südafrika...           "
+cat $DIR/queries/toilets_south_africa.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_south_africa.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Südkorea
+
+echo -ne "Query Toiletten ganz Südkorea...           "
+cat $DIR/queries/toilets_south_korea.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_south_korea.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# WC's ganz Taiwan
+
+echo -ne "Query Toiletten ganz Taiwan...           "
+cat $DIR/queries/toilets_taiwan.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_taiwan.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
