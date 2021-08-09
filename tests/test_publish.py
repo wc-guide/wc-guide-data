@@ -3,7 +3,7 @@ import json
 
 import pytest
 
-from publish.prepare import get_features, get_properties, is_type_iv, has_urinal, supports_female, supports_male, \
+from publish.publish import get_features, get_properties, is_type_iv, has_urinal, supports_female, supports_male, \
     is_type_pissoir, get_type, get_osm_id, get_geometry, get_description, has_access, get_name, get_operator, \
     requires_fee, has_changing_table, is_nette_toilette
 
