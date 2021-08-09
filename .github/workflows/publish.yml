@@ -1,29 +1,28 @@
-name: Get data from Overpass
-
+name: Publish OSM Data
 on:
   schedule:
-  - cron:  '00 7 * * *' # run every day at 07:00 UTC
-  workflow_dispatch: ~
+    - cron: '00 7 * * *' # run every day at 07:00 UTC
 
 jobs:
-  query_overpass:
+  publish_osm:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ 3.8 ]
+        poetry-version: [ 1.1.6 ]
+        os: [ ubuntu-18.04 ]
     runs-on: ubuntu-18.04
-    continue-on-error: false
-    timeout-minutes: 30
-
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Set up Python 3.7
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.7
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Publish Data Switzerland
-      run: |
-        python publish/publish.py -u ${{ secrets.BACKEND_USERNAME }} -p ${{ secrets.BACKEND_PASSWORD }} -b ${{ secrets.BACKEND_URL }} -n switzerland -f '../data/toilets_switzerland.geojson'
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run image
+        uses: abatilo/actions-poetry@v2.0.0
+        with:
+          poetry-version: ${{ matrix.poetry-version }}
+      - name: Install dependencies
+        run: poetry install
+      - name: Publish OSM Data
+        run: poetry run python publish/publish.py -u ${{ secrets.BACKEND_USERNAME }} -p ${{ secrets.BACKEND_PASSWORD }} -b ${{ secrets.BACKEND_URL }} -f '../data/'
 

@@ -3,6 +3,49 @@
 "features": [
 {
   "type": "Feature",
+  "id": "way/379325600",
+  "properties": {
+    "amenity": "toilets",
+    "female": "yes",
+    "indoor": "yes",
+    "fee": "yes",
+    "level": "-1",
+    "description": "WC/Dusche",
+    "access": "yes",
+    "changing_table": "yes",
+    "name": "Weisshorn Mittelstation",
+    "id": "way/379325600"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.6314447,
+          47.6981198
+        ],
+        [
+          8.6314219,
+          47.6980964
+        ],
+        [
+          8.631469,
+          47.6980787
+        ],
+        [
+          8.6314909,
+          47.6981017
+        ],
+        [
+          8.6314447,
+          47.6981198
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/148349735",
   "properties": {
     "addr:housenumber": "5",
@@ -18,7 +61,8 @@
     "operator": "ZüriWC",
     "toilets:position": "urinal",
     "wheelchair": "no",
-    "id": "way/148349735"
+    "id": "way/148349735",
+    "description": "Nette Toilette"
   },
   "geometry": {
     "type": "Polygon",
