@@ -1,0 +1,96 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+  "type": "Feature",
+  "id": "way/148349735",
+  "properties": {
+    "addr:housenumber": "5",
+    "addr:street": "Bürkliplatz",
+    "amenity": "toilets",
+    "building": "service",
+    "building:levels": "1",
+    "capacity": "3",
+    "fee": "no",
+    "female": "no",
+    "male": "yes",
+    "name": "Pissoir Bürkliplatz",
+    "operator": "ZüriWC",
+    "toilets:position": "urinal",
+    "wheelchair": "no",
+    "id": "way/148349735"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.541305,
+          47.3667752
+        ],
+        [
+          8.5412791,
+          47.3667552
+        ],
+        [
+          8.5412953,
+          47.3667456
+        ],
+        [
+          8.5413212,
+          47.3667657
+        ],
+        [
+          8.541305,
+          47.3667752
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/211314584",
+  "properties": {
+    "addr:city": "Lyss",
+    "addr:country": "CH",
+    "addr:housenumber": "16a",
+    "addr:postcode": "3250",
+    "addr:street": "Zeughausstrasse",
+    "amenity": "toilets",
+    "building": "yes",
+    "ele": "443",
+    "fee": "no",
+    "wheelchair": "yes",
+    "id": "way/211314584"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.3043823,
+          47.0731185
+        ],
+        [
+          7.3043195,
+          47.0731573
+        ],
+        [
+          7.3042905,
+          47.0731355
+        ],
+        [
+          7.3043533,
+          47.0730967
+        ],
+        [
+          7.3043823,
+          47.0731185
+        ]
+      ]
+    ]
+  }
+}
+]
+}
