@@ -88,10 +88,10 @@ def transform_feature(feature):
     properties = get_properties(feature)
     return {
         "type": "Feature",
-        "id": get_osm_id(feature=feature),
         "geometry": get_geometry(feature=feature),
         "properties": {
             "type": get_type(properties=properties),
+            "id": get_osm_id(feature=feature),
             "description": get_description(properties=properties),
             "name": get_name(properties=properties),
             "operator": get_operator(properties=properties),
