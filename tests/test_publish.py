@@ -5,7 +5,8 @@ import pytest
 
 from publish.publish import get_features, get_properties, is_type_iv, has_urinal, supports_female, supports_male, \
     is_type_pissoir, get_type, get_osm_id, get_geometry, get_description, has_access, get_name, get_operator, \
-    requires_fee, has_changing_table, is_nette_toilette
+    requires_fee, has_changing_table, is_nette_toilette, get_line_string_center, get_polygon_center, \
+    get_multipolygon_center
 
 
 @pytest.fixture
@@ -136,3 +137,44 @@ def test_get_operator(data):
     operators = get_property_list(data, get_operator)
 
     assert len(operators) > 0
+
+
+def test_get_line_string_center():
+    line_string = {
+        "type": "LineString",
+        "coordinates": [
+            [30.0, 10.0], [10.0, 30.0], [20.0, 20.0]
+        ]
+    }
+    center = get_line_string_center(line_string['coordinates'])
+
+    assert center == [20.0, 20.0]
+
+
+def test_get_polygon_center():
+    polygon = {
+        "type": "Polygon",
+        "coordinates": [
+            [[30.0, 10.0], [60.0, 40.0], [20.0, 40.0], [10.0, 0.0], [30.0, 10.0]]
+        ]
+    }
+    center = get_polygon_center(polygon['coordinates'])
+
+    assert center == [30.0, 20.0]
+
+
+def test_get_multipolygon_center():
+    multipolygon = {
+        "type": "MultiPolygon",
+        "coordinates": [
+            [
+                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]]  # 140, 140
+            ],
+            [
+                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]],  # 140, 140
+                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]]   # 140, 140
+            ]
+        ]
+    }
+    center = get_multipolygon_center(multipolygon['coordinates'])
+    assert center == [35.0, 35.0]
