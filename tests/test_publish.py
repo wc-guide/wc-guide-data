@@ -6,15 +6,24 @@ import pytest
 from publish.publish import get_features, get_properties, is_type_iv, has_urinal, supports_female, supports_male, \
     is_type_pissoir, get_type, get_osm_id, get_geometry, get_description, has_access, get_name, get_operator, \
     requires_fee, has_changing_table, is_nette_toilette, get_line_string_center, get_polygon_center, \
-    get_multipolygon_center
+    get_multipolygon_center, transform_geojson
+
+
+def get_test_json(filename):
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    file_path = os.path.join(dir_path, filename)
+    with open(file_path) as json_file:
+        return json.load(json_file)
 
 
 @pytest.fixture
 def data():
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    file_path = os.path.join(dir_path, 'osm_test.geojson')
-    with open(file_path) as json_file:
-        return json.load(json_file)
+    return get_test_json('osm_test.geojson')
+
+
+@pytest.fixture
+def transform():
+    return get_test_json('transform_test.geojson')
 
 
 def test_get_features(data):
@@ -168,13 +177,22 @@ def test_get_multipolygon_center():
         "type": "MultiPolygon",
         "coordinates": [
             [
-                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]]  # 140, 140
+                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]]
             ],
             [
-                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]],  # 140, 140
-                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]]   # 140, 140
+                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]],
+                [[40.0, 40.0], [20.0, 40.0], [40.0, 30.0], [40.0, 30.0]]
             ]
         ]
     }
     center = get_multipolygon_center(multipolygon['coordinates'])
     assert center == [35.0, 35.0]
+
+
+def test_transform_geojson(transform):
+    result = transform_geojson(transform)
+    features = get_features(result)
+    for feature in features:
+        geometry = get_geometry(feature)
+        geometry_type = geometry.get("type", None)
+        assert geometry_type == "Point"
