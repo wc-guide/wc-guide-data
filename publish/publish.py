@@ -84,11 +84,56 @@ def get_geometry(feature):
     return feature.get("geometry", None)
 
 
+def get_line_string_center(coordinates):
+    lon, lat = 0, 0
+    for coordinate in coordinates:
+        lon += coordinate[0]
+        lat += coordinate[1]
+    return [lon / len(coordinates), lat / len(coordinates)]
+
+
+def get_polygon_center(coordinates):
+    polygons = [get_line_string_center(polygon) for polygon in coordinates]
+    return get_line_string_center(polygons)
+
+
+def get_multipolygon_center(coordinates):
+    polygons = [get_polygon_center(polygon) for polygon in coordinates]
+    return get_line_string_center(polygons)
+
+
+def geometry_to_point(geometry):
+    geometry_type = str(geometry.get("type", None)).lower()
+    coordinates = geometry.get("coordinates", None)
+    if len(coordinates) == 0:
+        return None
+
+    if geometry_type == "point":
+        return geometry
+    if geometry_type == "linestring":
+        return {
+            "type": "Point",
+            "coordinates": get_line_string_center(coordinates)
+        }
+    if geometry_type == "polygon":
+        return {
+            "type": "Point",
+            "coordinates": get_polygon_center(coordinates)
+        }
+    if geometry_type == "multipolygon":
+        return {
+            "type": "Point",
+            "coordinates": get_multipolygon_center(coordinates)
+        }
+    return None
+
+
 def transform_feature(feature):
     properties = get_properties(feature)
+    geometry = get_geometry(feature=feature)
     return {
         "type": "Feature",
-        "geometry": get_geometry(feature=feature),
+        "geometry": geometry_to_point(geometry),
         "properties": {
             "type": get_type(properties=properties),
             "id": get_osm_id(feature=feature),
