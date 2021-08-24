@@ -1,0 +1,88 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+  "type": "Feature",
+  "id": "way/88603905",
+  "properties": {
+    "amenity": "toilets",
+    "building": "yes",
+    "id": "way/88603905"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.9790089,
+          51.2523625
+        ],
+        [
+          2.979056,
+          51.2522797
+        ],
+        [
+          2.9791499,
+          51.2523007
+        ],
+        [
+          2.9791012,
+          51.2523854
+        ],
+        [
+          2.9790898,
+          51.2523825
+        ],
+        [
+          2.9790089,
+          51.2523625
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/576910547",
+  "properties": {
+    "id": "way/576910547"
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        3.8862951,
+        50.5875415
+      ],
+      [
+        3.8862918,
+        50.5875362
+      ],
+      [
+        3.8862789,
+        50.5875145
+      ],
+      [
+        3.8862579,
+        50.5874791
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/395060673",
+  "properties": {
+    "amenity": "toilets",
+    "id": "node/395060673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      103.7769525,
+      1.348265
+    ]
+  }
+}
+]
+}
