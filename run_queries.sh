@@ -222,14 +222,14 @@ echo ""
 
 # WC's ganz Neuseeland
 
-echo -ne "Query Toiletten ganzes Neuseeland...           "
-cat $DIR/queries/toilets_new_zealand.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_new_zealand.geojson
+echo -ne "Query Toiletten ganz Neuseeland...           "
+cat $DIR/queries/toilets_newzealand.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_newzealand.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # WC's ganz Nigeria
 
-echo -ne "Query Toiletten ganzes Neuseeland...           "
+echo -ne "Query Toiletten ganz Nigeria...           "
 cat $DIR/queries/toilets_nigeria.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_nigeria.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
