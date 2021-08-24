@@ -193,9 +193,12 @@ def put_to_data(url, data, username, password):
 
 def publish(backend, data, username, password):
     for name, entry in data:
-        url = f"{backend}/area/{name}/"
-        response = put_to_data(url=url, data=entry, username=username, password=password)
-        print("Response code", response.status_code)
+        is_not_empty = len(get_features(entry)) > 0
+        is_not_us = str(name).lower() != "us"  # TODO: figure out how to deal with data amount of us
+        if is_not_empty and is_not_us:
+            url = f"{backend}/area/{name}/"
+            response = put_to_data(url=url, data=entry, username=username, password=password)
+            print("Response code", response.status_code)
 
 
 def run():
