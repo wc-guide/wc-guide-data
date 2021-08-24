@@ -68,5 +68,12 @@ Um ein neues Query hinzuzufügen, müssen folgende Schritte befolgt werden:
 
 Die Daten können per script ans Backend gesendet werden, siehe folgendes Beispiel:
 ```bash
-python publish/publish.py -u <username> -p <password> -b <backend_url> -n <name> -f <relativ_file_path>
+python publish/publish.py -u <username> -p <password> -b <backend_url> -n <name> -f <relativ_directory_path>
 ```
+
+Für jede GeoJSON-Datei im `relativ_directory_path` wird eine Area im Backend erstellt.
+Der Namen der Area wird als eindeutige Id verwendet, damit ein Update von Areas möglich ist.
+Dafür wird der GeoJSON-Dateinamen beispielsweise wie folgt verwendet:  
+
+Dateinamen: `toilets_switzerland.geojson` -> Area: `switzerland` 
+
