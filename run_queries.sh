@@ -314,14 +314,14 @@ echo ""
 # WC's ganz Südafrika
 
 echo -ne "Query Toiletten ganz Südafrika...           "
-cat $DIR/queries/toilets_south_africa.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_south_africa.geojson
+cat $DIR/queries/toilets_southafrica.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_southafrica.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # WC's ganz Südkorea
 
 echo -ne "Query Toiletten ganz Südkorea...           "
-cat $DIR/queries/toilets_south_korea.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_south_korea.geojson
+cat $DIR/queries/toilets_southkorea.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_southkorea.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
