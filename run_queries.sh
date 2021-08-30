@@ -206,6 +206,13 @@ cat $DIR/queries/toilets_malta.txt | python $DIR/overpass_query.py | osmtogeojso
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# WC's ganz Marokko
+
+echo -ne "Query Toiletten Marokko...          "
+cat $DIR/queries/toilets_morocco.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_morocco.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # WC's ganz Mexico
 
 echo -ne "Query Toiletten ganz Mexiko...           "
@@ -343,13 +350,6 @@ echo ""
 
 echo -ne "Query Toiletten ganze USA...           "
 cat $DIR/queries/toilets_us.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_us.geojson
-echo -ne "\t\t - Done.\r"
-echo ""
-
-# WC's ganz Marokko
-
-echo -ne "Query Toiletten Marokko...          "
-cat $DIR/queries/toilets_morocco.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_morocco.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
