@@ -1,5 +1,7 @@
 # WC Guide Data
 
+![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg)
+
 ![WC-Guide Logo](img/wc-guide-logo.svg)
 
 Sammlung von JSON Files für den WC-Guide
@@ -46,8 +48,6 @@ out skel qt;
 </details>
 
 ## Automation
-
-![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg)
 
 In diesem Repository sind GitHub Actions eingerichtet, um täglich aktuelle Daten via [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) abzufragen und als GeoJSON abzulegen.
 
