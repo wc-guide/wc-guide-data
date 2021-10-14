@@ -14,6 +14,8 @@ def get_properties(feature):
 
 
 def get_type(properties):
+    if is_type_eurokey_osm(properties):
+        return 'eurokeyosm'
     if is_type_iv(properties):
         return 'iv'
     if is_type_pissoir(properties):
@@ -28,6 +30,13 @@ def is_type_pissoir(properties):
     return is_urinal and is_male and not is_female
 
 
+def is_type_eurokey_osm(properties):
+    is_centralkey_eurokey = has_centralkey_eurokey(properties)
+    is_wheelchair_description_eurokey = has_wheelchair_description_eurokey(properties)
+    is_note_eurokey = has_note_eurokey(properties)
+    return is_centralkey_eurokey or is_wheelchair_description_eurokey or is_note_eurokey
+
+
 def supports_male(properties):
     return properties.get("male", "no") == "yes"
 
@@ -36,8 +45,24 @@ def supports_female(properties):
     return properties.get("female", "no") == "yes"
 
 
+def has_centralkey_eurokey(properties):
+    return properties.get("centralkey", "") == "eurokey"
+
+
+def has_note_eurokey(properties):
+    return properties.get("note", "") == "Eurokey"
+
+
 def has_urinal(properties):
     return 'urinal' in properties.get('toilets:position', '')
+
+
+def has_wheelchair_description_eurokey(properties):
+    wheelchair_description = properties.get("wheelchair:description", "").lower()
+    eurokey = "eurokey" in wheelchair_description
+    euro_schluessel = "euro-schlüssel" in wheelchair_description
+    euroschluessel = "euroschlüssel" in wheelchair_description
+    return eurokey or euro_schluessel or euroschluessel
 
 
 def is_type_iv(properties):
