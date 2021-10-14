@@ -6,7 +6,7 @@ import pytest
 from publish.publish import get_features, get_properties, is_type_iv, has_urinal, supports_female, supports_male, \
     is_type_pissoir, get_type, get_osm_id, get_geometry, get_description, has_access, get_name, get_operator, \
     requires_fee, has_changing_table, is_nette_toilette, get_line_string_center, get_polygon_center, \
-    get_multipolygon_center, transform_geojson
+    get_multipolygon_center, transform_geojson, is_type_eurokey_osm
 
 
 def get_test_json(filename):
@@ -76,6 +76,10 @@ def test_has_access(data):
 
 def test_is_type_pissoir(data):
     assert has_property(data, is_type_pissoir)
+
+
+def test_is_type_eurokey_osm(data):
+    assert has_property(data, is_type_eurokey_osm)
 
 
 def test_has_changing_table(data):

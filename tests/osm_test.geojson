@@ -46,6 +46,34 @@
 },
 {
   "type": "Feature",
+  "id": "node/5077655943",
+  "properties": {
+    "access": "customers",
+    "amenity": "toilets",
+    "centralkey": "eurokey",
+    "changing_table": "yes",
+    "drinking_water": "yes",
+    "fee": "no",
+    "female": "yes",
+    "indoor": "yes",
+    "male": "yes",
+    "operator": "Eiscafé Simonetti",
+    "operator:type": "private",
+    "toilets:disposal": "flush",
+    "toilets:position": "seated;urinal",
+    "wheelchair": "yes",
+    "id": "node/5077655943"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3368332,
+      51.4380362
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "way/148349735",
   "properties": {
     "addr:housenumber": "5",
