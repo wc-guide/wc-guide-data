@@ -1,4 +1,4 @@
-[out:json][timeout:9000];
+[out:json][timeout:12000];
 (
 //ganz Frankreich WC's
 area["ISO3166-1"="FR"];
