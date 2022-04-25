@@ -110,10 +110,10 @@ echo ""
 
 # WC's ganz Frankreich
 
-echo -ne "Query Toiletten ganz Frankreich...           "
-cat $DIR/queries/toilets_france.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_france.geojson
-echo -ne "\t\t - Done.\r"
-echo ""
+#echo -ne "Query Toiletten ganz Frankreich...           "
+#cat $DIR/queries/toilets_france.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/toilets_france.geojson
+#echo -ne "\t\t - Done.\r"
+#echo ""
 
 # WC's ganz Deutschland
 
